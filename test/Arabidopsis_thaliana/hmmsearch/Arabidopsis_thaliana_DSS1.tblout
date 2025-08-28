@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AT1G64750.1          -          PTHR16771.orig.30.pir -            7.4e-27   94.8  20.1   7.8e-27   94.7  20.1   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:1:24052517:24053923:-1 gene:AT1G64750 transcript:AT1G64750.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+AT1G64750.2          -          PTHR16771.orig.30.pir -            7.4e-27   94.8  20.1   7.8e-27   94.7  20.1   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:1:24052581:24053905:-1 gene:AT1G64750 transcript:AT1G64750.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+AT5G45010.1          -          PTHR16771.orig.30.pir -            1.4e-24   87.4  19.6   1.5e-24   87.3  19.6   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:5:18166898:18168383:-1 gene:AT5G45010 transcript:AT5G45010.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(V) description:DSS1 homolog on chromosome V [Source:NCBI gene (formerly Entrezgene);Acc:834532]
+AT1G64750.3          -          PTHR16771.orig.30.pir -            2.5e-24   86.7  19.9   3.1e-14   54.3   9.9   2.1   2   0   0   2   2   2   2 pep chromosome:TAIR10:1:24052362:24053908:-1 gene:AT1G64750 transcript:AT1G64750.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/DSS1.hmm
+# Target file:     proteomes/Arabidopsis_thaliana.faa
+# Option settings: hmmsearch --tblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_DSS1.tblout --domtblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_DSS1.domtblout --noali --cpu 8 models/DSS1.hmm proteomes/Arabidopsis_thaliana.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:08 2025
+# [ok]

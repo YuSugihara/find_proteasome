@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KNA25694.1           -          PTHR11599.SF44.pir   -           3.9e-119  397.0   0.5  4.7e-119  396.7   0.5   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_003170 [Spinacia oleracea]
+KNA25317.1           -          PTHR11599.SF44.pir   -            1.1e-40  139.7   0.0   1.3e-40  139.5   0.0   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_007620, partial [Spinacia oleracea]
+KNA17582.1           -          PTHR11599.SF44.pir   -            3.2e-37  128.3   0.0   3.8e-37  128.1   0.0   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_078180 [Spinacia oleracea]
+KNA17811.1           -          PTHR11599.SF44.pir   -            4.5e-22   78.6   0.0   6.8e-22   78.0   0.0   1.2   1   1   0   1   1   1   1 hypothetical protein SOVF_076310 [Spinacia oleracea]
+KNA04182.1           -          PTHR11599.SF44.pir   -            8.9e-19   67.8   0.0   1.1e-18   67.5   0.0   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_201960 [Spinacia oleracea]
+KNA10302.1           -          PTHR11599.SF44.pir   -            4.6e-18   65.5   0.1   6.4e-18   65.0   0.1   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_145550 [Spinacia oleracea]
+KNA22279.1           -          PTHR11599.SF44.pir   -            3.4e-17   62.7   0.0   5.4e-17   62.0   0.0   1.2   1   1   0   1   1   1   1 hypothetical protein SOVF_035230 [Spinacia oleracea]
+KNA18775.1           -          PTHR11599.SF44.pir   -            9.8e-17   61.1   0.1   1.2e-16   60.8   0.1   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_067770 [Spinacia oleracea]
+KNA05592.1           -          PTHR11599.SF44.pir   -            1.3e-15   57.4   0.1   1.7e-15   57.1   0.1   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_188980 [Spinacia oleracea]
+KNA24637.1           -          PTHR11599.SF44.pir   -            3.4e-14   52.8   0.1   4.1e-14   52.5   0.1   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_013850 [Spinacia oleracea]
+KNA25284.1           -          PTHR11599.SF44.pir   -            8.1e-14   51.6   0.1   1.2e-13   51.0   0.1   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_007100 [Spinacia oleracea]
+KNA09060.1           -          PTHR11599.SF44.pir   -            1.2e-13   51.0   0.2   1.7e-13   50.5   0.2   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_157090 [Spinacia oleracea]
+KNA17828.1           -          PTHR11599.SF44.pir   -            2.4e-13   50.0   0.0   3.9e-13   49.3   0.0   1.3   1   1   0   1   1   1   1 hypothetical protein SOVF_076470 [Spinacia oleracea]
+KNA17932.1           -          PTHR11599.SF44.pir   -            8.5e-13   48.2   0.1   1.1e-12   47.9   0.1   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_075310 [Spinacia oleracea]
+KNA24482.1           -          PTHR11599.SF44.pir   -            1.5e-08   34.3   0.0   1.7e-08   34.1   0.0   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_015190 [Spinacia oleracea]
+KNA15965.1           -          PTHR11599.SF44.pir   -            2.7e-08   33.4   0.0   7.1e-08   32.1   0.0   1.3   1   1   1   2   2   2   1 hypothetical protein SOVF_093600 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/PBB.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_PBB.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_PBB.domtblout --noali --cpu 8 models/PBB.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:03 2025
+# [ok]

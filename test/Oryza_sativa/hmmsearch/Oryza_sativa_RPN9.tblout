@@ -1,0 +1,18 @@
+#                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GCF_001433935.1_NC_029256.1_004040.1 -          PTHR10539.SF0.pir    -           5.7e-175  583.1   1.8  6.9e-175  582.8   1.8   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029258.1_000460.1 -          PTHR10539.SF0.pir    -           7.8e-173  576.0   4.0  8.6e-173  575.9   4.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029259.1_003376.1 -          PTHR10539.SF0.pir    -            3.9e-19   70.1   1.1   7.9e-19   69.1   1.1   1.6   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029262.1_002278.1 -          PTHR10539.SF0.pir    -            1.1e-09   39.0   0.1     3e-09   37.5   0.0   1.7   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029256.1_000638.1 -          PTHR10539.SF0.pir    -            5.7e-05   23.5   5.8   6.2e-05   23.4   0.6   2.3   2   0   0   2   2   2   1 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN9.hmm
+# Target file:     proteomes/Oryza_sativa.faa
+# Option settings: hmmsearch --tblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN9.tblout --domtblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN9.domtblout --noali --cpu 8 models/RPN9.hmm proteomes/Oryza_sativa.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:33:13 2025
+# [ok]

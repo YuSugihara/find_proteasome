@@ -1,0 +1,78 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPN1.hmm
+# target sequence database:        proteomes/Spinacia_oleracea.faa
+# per-seq hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN1.tblout
+# per-dom hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN1.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR10943.SF1.pir  [M=890]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+          0 1458.7   0.7          0 1458.3   0.7    1.0  1  KNA15889.1  hypothetical protein SOVF_094190 [Spinacia olerac
+    2.9e-39  135.2  10.7    3.1e-26   92.1   0.2    3.8  3  KNA21220.1  hypothetical protein SOVF_045290 [Spinacia olerac
+    8.5e-07   27.8   0.2     0.0078   14.6   0.0    2.5  2  KNA16886.1  hypothetical protein SOVF_085030 isoform A [Spina
+    8.9e-07   27.7   0.2     0.0078   14.6   0.0    2.5  2  KNA16887.1  hypothetical protein SOVF_085030 isoform B [Spina
+  ------ inclusion threshold ------
+      0.084   11.2  11.5        0.1   10.9  11.5    1.0  1  KNA13098.1  hypothetical protein SOVF_119900 [Spinacia olerac
+        1.1    7.5   6.0        1.4    7.2   6.0    1.0  1  KNA05880.1  hypothetical protein SOVF_186290 [Spinacia olerac
+
+
+Domain annotation for each sequence:
+>> KNA15889.1  hypothetical protein SOVF_094190 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1458.3   0.7         0         0       9     889 ..      13     893 ..       4     894 .. 0.98
+
+>> KNA21220.1  hypothetical protein SOVF_045290 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.9   0.4   2.9e-12   1.1e-08     111     297 ..      62     263 ..      33     317 .. 0.76
+   2 !   92.1   0.2     8e-30   3.1e-26     356     614 ..     368     622 ..     349     649 .. 0.85
+   3 !   15.8   0.3     9e-07    0.0035     397     490 ..     623     757 ..     617     777 .. 0.75
+
+>> KNA16886.1  hypothetical protein SOVF_085030 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.0     2e-06    0.0078     459     571 ..    1032    1155 ..     961    1169 .. 0.80
+   2 !    9.7   0.6   6.3e-05      0.25     461     561 ..    1295    1421 ..    1206    1441 .. 0.71
+
+>> KNA16887.1  hypothetical protein SOVF_085030 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.0     2e-06    0.0078     459     571 ..    1032    1155 ..     961    1169 .. 0.80
+   2 !    9.7   0.6   6.4e-05      0.25     461     561 ..    1296    1422 ..    1207    1442 .. 0.71
+
+>> KNA13098.1  hypothetical protein SOVF_119900 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9  11.5   2.7e-05       0.1       9      84 ..      34     109 ..      22     113 .. 0.50
+
+>> KNA05880.1  hypothetical protein SOVF_186290 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.2   6.0   0.00036       1.4       8      93 ..      62     147 ..      44     151 .. 0.71
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (890 nodes)
+Target sequences:                      23522  (9260641 residues searched)
+Passed MSV filter:                      1321  (0.0561602); expected 470.4 (0.02)
+Passed bias filter:                      858  (0.0364765); expected 470.4 (0.02)
+Passed Vit filter:                       146  (0.00620696); expected 23.5 (0.001)
+Passed Fwd filter:                        18  (0.000765241); expected 0.2 (1e-05)
+Initial search space (Z):              23522  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.35u 0.01s 00:00:00.36 Elapsed: 00:00:00.06
+# Mc/sec: 132793.38
+//
+[ok]

@@ -1,0 +1,61 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession     E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- --------------------  ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KNA15086.1           -          rad23                TIGR00601.1  1.2e-117  393.6  17.2   2.6e-71  241.2   7.9   2.0   1   1   1   2   2   2   2 hypothetical protein SOVF_101410 [Spinacia oleracea]
+KNA14992.1           -          rad23                TIGR00601.1  2.5e-114  382.8   6.6  2.8e-114  382.6   6.6   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_102330 [Spinacia oleracea]
+KNA19800.1           -          rad23                TIGR00601.1  2.1e-106  356.7   5.5  2.7e-106  356.3   5.5   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_058260 [Spinacia oleracea]
+KNA18917.1           -          rad23                TIGR00601.1   4.7e-87  293.0  35.9     9e-12   45.2   0.4   7.0   7   0   0   7   7   7   7 hypothetical protein SOVF_066340 [Spinacia oleracea]
+KNA16377.1           -          rad23                TIGR00601.1   3.4e-75  253.9  29.6   7.2e-12   45.5   0.4   6.0   6   0   0   6   6   6   6 hypothetical protein SOVF_089610 [Spinacia oleracea]
+KNA08318.1           -          rad23                TIGR00601.1   2.4e-39  136.0  11.1   1.1e-12   48.2   0.5   3.0   3   0   0   3   3   3   3 hypothetical protein SOVF_163680 [Spinacia oleracea]
+KNA24339.1           -          rad23                TIGR00601.1   1.2e-29  104.0   1.7     8e-15   55.2   0.1   2.0   2   0   0   2   2   2   2 hypothetical protein SOVF_016390 [Spinacia oleracea]
+KNA11181.1           -          rad23                TIGR00601.1   1.2e-29  104.0  10.5   1.3e-12   47.9   0.5   3.0   3   0   0   3   3   3   3 hypothetical protein SOVF_137690 [Spinacia oleracea]
+KNA16971.1           -          rad23                TIGR00601.1   4.1e-29  102.3   2.6   1.6e-14   54.2   0.1   2.0   2   0   0   2   2   2   2 hypothetical protein SOVF_084460 [Spinacia oleracea]
+KNA18520.1           -          rad23                TIGR00601.1   3.3e-20   73.0   8.7   7.8e-10   38.8   0.6   3.2   2   2   1   3   3   3   3 hypothetical protein SOVF_070040 [Spinacia oleracea]
+KNA21210.1           -          rad23                TIGR00601.1   3.9e-15   56.3   0.0   3.9e-15   56.3   0.0   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_045420 [Spinacia oleracea]
+KNA12097.1           -          rad23                TIGR00601.1   4.6e-13   49.4   0.3   5.5e-13   49.2   0.3   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_129030 [Spinacia oleracea]
+KNA19858.1           -          rad23                TIGR00601.1   4.6e-13   49.4   0.3   5.5e-13   49.2   0.3   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_057670 [Spinacia oleracea]
+KNA14901.1           -          rad23                TIGR00601.1   1.4e-12   47.8   2.5   1.6e-12   47.7   2.5   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_103040 [Spinacia oleracea]
+KNA19594.1           -          rad23                TIGR00601.1   1.8e-12   47.5   2.9   2.1e-12   47.3   2.9   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_059910 [Spinacia oleracea]
+KNA22352.1           -          rad23                TIGR00601.1   1.8e-12   47.5   2.9   2.1e-12   47.3   2.9   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_034880 [Spinacia oleracea]
+KNA18146.1           -          rad23                TIGR00601.1   6.4e-12   45.7  28.9   3.9e-10   39.8   0.0   5.6   3   2   1   4   4   4   2 hypothetical protein SOVF_073470 [Spinacia oleracea]
+KNA17559.1           -          rad23                TIGR00601.1   1.1e-11   45.0   0.9     6e-06   26.0   0.4   2.1   2   0   0   2   2   2   2 hypothetical protein SOVF_078900 [Spinacia oleracea]
+KNA09910.1           -          rad23                TIGR00601.1   1.1e-11   44.9   0.5   8.1e-06   25.6   0.1   2.9   2   1   1   3   3   3   2 hypothetical protein SOVF_149300 [Spinacia oleracea]
+KNA11956.1           -          rad23                TIGR00601.1   8.5e-11   42.0   0.1   9.2e-11   41.9   0.1   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_130310, partial [Spinacia oleracea]
+KNA10736.1           -          rad23                TIGR00601.1   2.8e-10   40.3   0.0   2.9e-10   40.2   0.0   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_141690 [Spinacia oleracea]
+KNA12098.1           -          rad23                TIGR00601.1   5.1e-10   39.4   0.0   5.1e-10   39.4   0.0   3.3   3   1   0   3   3   3   1 hypothetical protein SOVF_129010 [Spinacia oleracea]
+KNA09284.1           -          rad23                TIGR00601.1   4.1e-09   36.5   0.0   4.1e-09   36.5   0.0   2.6   3   0   0   3   3   2   1 hypothetical protein SOVF_155030 isoform A [Spinacia oleracea]
+KNA09285.1           -          rad23                TIGR00601.1   4.1e-09   36.5   0.0   4.1e-09   36.5   0.0   2.6   3   0   0   3   3   2   1 hypothetical protein SOVF_155030 isoform B [Spinacia oleracea]
+KNA16413.1           -          rad23                TIGR00601.1   5.8e-08   32.7   0.0   6.7e-08   32.5   0.0   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_089230 [Spinacia oleracea]
+KNA09922.1           -          rad23                TIGR00601.1   9.9e-08   31.9   0.4    0.0013   18.4   0.0   2.1   2   0   0   2   2   2   2 hypothetical protein SOVF_149090 [Spinacia oleracea]
+KNA17834.1           -          rad23                TIGR00601.1     3e-07   30.3   0.6   3.2e-07   30.2   0.6   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_076530 [Spinacia oleracea]
+KNA18162.1           -          rad23                TIGR00601.1   1.4e-06   28.1   0.1     0.027   14.0   0.2   2.1   1   1   1   2   2   2   2 hypothetical protein SOVF_073420 [Spinacia oleracea]
+KNA08264.1           -          rad23                TIGR00601.1   2.1e-05   24.2   0.0   3.4e-05   23.5   0.0   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_164200 [Spinacia oleracea]
+KNA26132.1           -          rad23                TIGR00601.1   0.00025   20.7   0.4    0.0013   18.4   0.1   2.0   2   0   0   2   2   2   1 hypothetical protein SOVF_000270 [Spinacia oleracea]
+KNA06336.1           -          rad23                TIGR00601.1   0.00026   20.6   5.1      0.23   10.9   0.3   4.1   5   0   0   5   5   4   1 hypothetical protein SOVF_182000 [Spinacia oleracea]
+KNA03816.1           -          rad23                TIGR00601.1    0.0003   20.4   0.1   0.00031   20.4   0.1   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_205510 isoform A [Spinacia oleracea]
+KNA13218.1           -          rad23                TIGR00601.1     0.002   17.7   0.1    0.0028   17.3   0.1   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_118830 isoform B [Spinacia oleracea]
+KNA23671.1           -          rad23                TIGR00601.1     0.002   17.7   0.0    0.0023   17.5   0.0   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_021950 [Spinacia oleracea]
+KNA13217.1           -          rad23                TIGR00601.1     0.002   17.7   0.1    0.0028   17.3   0.1   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_118830 isoform A [Spinacia oleracea]
+KNA08628.1           -          rad23                TIGR00601.1     0.018   14.6   0.0     0.018   14.6   0.0   2.0   2   0   0   2   2   1   0 hypothetical protein SOVF_160920 [Spinacia oleracea]
+KNA05989.1           -          rad23                TIGR00601.1     0.028   14.0   0.0     0.031   13.8   0.0   1.0   1   0   0   1   1   1   0 hypothetical protein SOVF_185270 [Spinacia oleracea]
+KNA06051.1           -          rad23                TIGR00601.1     0.062   12.8   0.1       1.4    8.3   0.0   2.1   1   1   0   2   2   2   0 hypothetical protein SOVF_184680 [Spinacia oleracea]
+KNA15100.1           -          rad23                TIGR00601.1     0.076   12.5   0.2      0.08   12.5   0.2   1.0   1   0   0   1   1   1   0 hypothetical protein SOVF_101260 [Spinacia oleracea]
+KNA13741.1           -          rad23                TIGR00601.1     0.085   12.4   0.1     0.089   12.3   0.1   1.0   1   0   0   1   1   1   0 hypothetical protein SOVF_114000 [Spinacia oleracea]
+KNA24778.1           -          rad23                TIGR00601.1     0.093   12.2   0.0      0.14   11.6   0.0   1.2   1   0   0   1   1   1   0 hypothetical protein SOVF_012630, partial [Spinacia oleracea]
+KNA03817.1           -          rad23                TIGR00601.1      0.11   12.0   0.1      0.31   10.5   0.1   1.8   1   1   0   1   1   1   0 hypothetical protein SOVF_205510 isoform B [Spinacia oleracea]
+KNA06681.1           -          rad23                TIGR00601.1      0.26   10.7   0.0      0.32   10.5   0.0   1.1   1   0   0   1   1   1   0 hypothetical protein SOVF_178730 [Spinacia oleracea]
+KNA04808.1           -          rad23                TIGR00601.1         1    8.8   3.6       1.3    8.5   3.6   1.0   1   0   0   1   1   1   0 hypothetical protein SOVF_196280 [Spinacia oleracea]
+KNA10493.1           -          rad23                TIGR00601.1       1.1    8.7   7.7      0.11   12.0   0.1   2.9   2   0   0   2   2   1   0 hypothetical protein SOVF_143570 [Spinacia oleracea]
+KNA25811.1           -          rad23                TIGR00601.1       3.9    6.9   6.6       6.1    6.3   6.6   1.2   1   0   0   1   1   1   0 hypothetical protein SOVF_003130 [Spinacia oleracea]
+KNA15416.1           -          rad23                TIGR00601.1       5.6    6.4   6.4       7.3    6.0   6.4   1.2   1   0   0   1   1   1   0 hypothetical protein SOVF_098530 [Spinacia oleracea]
+KNA07529.1           -          rad23                TIGR00601.1       9.8    5.6  15.2        11    5.4  15.2   1.0   1   0   0   1   1   1   0 hypothetical protein SOVF_171020 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RAD23.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RAD23.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RAD23.domtblout --noali --cpu 8 models/RAD23.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:04 2025
+# [ok]

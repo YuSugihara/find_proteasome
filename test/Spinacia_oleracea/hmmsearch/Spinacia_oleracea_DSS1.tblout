@@ -1,0 +1,14 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KNA11844.1           -          PTHR16771.orig.30.pir -            3.7e-29  101.1  21.1     4e-29  101.0  21.1   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_131370 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/DSS1.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_DSS1.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_DSS1.domtblout --noali --cpu 8 models/DSS1.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:03 2025
+# [ok]

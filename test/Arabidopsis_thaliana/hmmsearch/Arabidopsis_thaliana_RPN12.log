@@ -1,0 +1,69 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPN12.hmm
+# target sequence database:        proteomes/Arabidopsis_thaliana.faa
+# per-seq hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN12.tblout
+# per-dom hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN12.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR12387.SF0.pir  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+   3.3e-105  352.7   1.7   3.7e-105  352.6   1.7    1.0  1  AT1G64520.1  pep chromosome:TAIR10:1:23956269:23958461:1 gene
+    3.2e-69  234.7   0.7    3.9e-65  221.3   0.1    2.0  2  AT5G42040.1  pep chromosome:TAIR10:5:16813565:16814749:-1 gen
+  ------ inclusion threshold ------
+        0.1   13.3   0.1       0.12   13.1   0.1    1.1  1  AT3G59280.1  pep chromosome:TAIR10:3:21908539:21910722:-1 gen
+        0.1   13.3   0.1       0.12   13.1   0.1    1.1  1  AT3G59280.2  pep chromosome:TAIR10:3:21908429:21910738:-1 gen
+       0.41   11.3   0.1        0.5   11.0   0.1    1.1  1  AT4G14110.1  pep chromosome:TAIR10:4:8132880:8134988:-1 gene:
+
+
+Domain annotation for each sequence:
+>> AT1G64520.1  pep chromosome:TAIR10:1:23956269:23958461:1 gene:AT1G64520 transcript:AT1G64520.1 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  352.6   1.7  3.8e-109  3.7e-105       4     274 .]       1     267 []       1     267 [] 0.97
+
+>> AT5G42040.1  pep chromosome:TAIR10:5:16813565:16814749:-1 gene:AT5G42040 transcript:AT5G42040.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   0.1     2e-05       0.2       5      42 ..       2      37 ..       1      50 [. 0.88
+   2 !  221.3   0.1     4e-69   3.9e-65      96     273 ..      57     232 ..      46     233 .] 0.94
+
+>> AT3G59280.1  pep chromosome:TAIR10:3:21908539:21910722:-1 gene:AT3G59280 transcript:AT3G59280.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.1   1.2e-05      0.12     195     255 ..      44     106 ..      13     113 .. 0.74
+
+>> AT3G59280.2  pep chromosome:TAIR10:3:21908429:21910738:-1 gene:AT3G59280 transcript:AT3G59280.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.1   1.2e-05      0.12     195     255 ..      44     106 ..      13     112 .. 0.74
+
+>> AT4G14110.1  pep chromosome:TAIR10:4:8132880:8134988:-1 gene:AT4G14110 transcript:AT4G14110.1 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1   5.2e-05       0.5     199     261 ..     128     187 ..     107     197 .] 0.86
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                      48321  (20833192 residues searched)
+Passed MSV filter:                      1970  (0.040769); expected 966.4 (0.02)
+Passed bias filter:                     1027  (0.0212537); expected 966.4 (0.02)
+Passed Vit filter:                        76  (0.00157282); expected 48.3 (0.001)
+Passed Fwd filter:                         5  (0.000103475); expected 0.5 (1e-05)
+Initial search space (Z):              48321  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.18u 0.01s 00:00:00.19 Elapsed: 00:00:00.07
+# Mc/sec: 77667.26
+//
+[ok]

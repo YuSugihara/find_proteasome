@@ -1,0 +1,617 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPT5.hmm
+# target sequence database:        proteomes/Spinacia_oleracea.faa
+# per-seq hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPT5.tblout
+# per-dom hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPT5.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR23073.SF7.pir  [M=426]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+   5.3e-238  790.7   3.7   6.3e-238  790.5   3.7    1.0  1  KNA09163.1  hypothetical protein SOVF_156090 [Spinacia olerac
+     1e-139  466.9   0.3    1.2e-68  232.8   0.0    2.1  2  KNA08754.1  hypothetical protein SOVF_159730 [Spinacia olerac
+   1.3e-139  466.5   0.4    1.2e-68  232.7   0.0    2.1  2  KNA22919.1  hypothetical protein SOVF_029600 [Spinacia olerac
+   2.1e-139  465.9   0.3    1.5e-68  232.5   0.2    2.1  2  KNA06205.1  hypothetical protein SOVF_183180 [Spinacia olerac
+   4.5e-136  454.9   0.2    5.8e-67  227.2   0.0    2.1  2  KNA09671.1  hypothetical protein SOVF_151390 [Spinacia olerac
+   3.8e-127  425.5   0.0    7.4e-49  167.6   0.0    3.1  3  KNA09495.1  hypothetical protein SOVF_152710 isoform A [Spina
+   3.8e-127  425.5   0.0    7.5e-49  167.6   0.0    3.1  3  KNA09496.1  hypothetical protein SOVF_152710 isoform B [Spina
+   8.3e-121  404.6   1.7     3e-119  399.5   1.7    2.0  1  KNA07873.1  hypothetical protein SOVF_167680 [Spinacia olerac
+   4.1e-119  399.0   0.4   6.1e-119  398.5   0.4    1.2  1  KNA07027.1  hypothetical protein SOVF_175230 [Spinacia olerac
+   4.5e-118  395.6   1.1   8.8e-118  394.6   1.1    1.4  1  KNA06207.1  hypothetical protein SOVF_183190 [Spinacia olerac
+   1.7e-115  387.1   0.4   2.1e-115  386.8   0.4    1.0  1  KNA12621.1  hypothetical protein SOVF_124000 [Spinacia olerac
+   5.2e-113  378.9   2.5     2e-109  367.1   0.1    2.0  2  KNA09723.1  hypothetical protein SOVF_151020 [Spinacia olerac
+   3.6e-110  369.6   0.0    7.2e-62  210.4   0.0    2.1  2  KNA03964.1  hypothetical protein SOVF_204140 [Spinacia olerac
+     1e-108  364.8   2.6   1.7e-107  360.7   2.6    1.9  1  KNA23194.1  hypothetical protein SOVF_027030 [Spinacia olerac
+   1.2e-108  364.6   3.7   1.8e-107  360.7   3.6    1.9  1  KNA23195.1  hypothetical protein SOVF_027040 [Spinacia olerac
+    4.1e-96  323.3   0.0    5.1e-48  164.8   0.1    2.5  2  KNA13497.1  hypothetical protein SOVF_115700 [Spinacia olerac
+    2.6e-95  320.6   0.0    3.2e-95  320.3   0.0    1.0  1  KNA25748.1  hypothetical protein SOVF_004100 [Spinacia olerac
+    2.1e-89  301.1   0.0    4.6e-44  151.8   0.0    3.1  3  KNA08257.1  hypothetical protein SOVF_164130 [Spinacia olerac
+    1.4e-79  268.8   0.1    1.7e-79  268.5   0.1    1.0  1  KNA03278.1  hypothetical protein SOVF_210740, partial [Spinac
+    1.7e-71  242.1   0.3    2.6e-71  241.5   0.3    1.1  1  KNA17612.1  hypothetical protein SOVF_078600 [Spinacia olerac
+    9.5e-68  229.8   0.3    1.6e-67  229.0   0.3    1.3  1  KNA17405.1  hypothetical protein SOVF_080200 [Spinacia olerac
+    4.6e-65  221.0   2.0      1e-64  219.8   2.0    1.7  1  KNA05337.1  hypothetical protein SOVF_191360 [Spinacia olerac
+    3.2e-63  214.9   0.1    5.8e-63  214.0   0.1    1.3  1  KNA22855.1  hypothetical protein SOVF_030070 [Spinacia olerac
+    1.2e-62  213.0   0.6    1.7e-62  212.5   0.6    1.1  1  KNA03057.1  hypothetical protein SOVF_212790 [Spinacia olerac
+    3.1e-61  208.3   0.1      5e-61  207.7   0.1    1.2  1  KNA07655.1  hypothetical protein SOVF_169620 [Spinacia olerac
+    1.4e-60  206.2   8.2    3.1e-60  205.0   8.2    1.5  1  KNA18724.1  hypothetical protein SOVF_068170 [Spinacia olerac
+      3e-60  205.1   0.0    4.9e-60  204.4   0.0    1.2  1  KNA18064.1  hypothetical protein SOVF_074330 [Spinacia olerac
+    2.1e-58  199.0   0.0    5.3e-55  187.8   0.0    2.9  3  KNA13845.1  hypothetical protein SOVF_112890 isoform B [Spina
+    2.3e-58  198.9   0.0      6e-55  187.6   0.0    2.9  3  KNA13844.1  hypothetical protein SOVF_112890 isoform A [Spina
+    2.6e-58  198.7   0.0    5.3e-55  187.8   0.0    2.8  3  KNA13846.1  hypothetical protein SOVF_112890 isoform C [Spina
+    3.4e-58  198.3   0.1    5.4e-58  197.7   0.1    1.2  1  KNA07237.1  hypothetical protein SOVF_173640 [Spinacia olerac
+    1.7e-56  192.8   1.5    1.8e-56  192.7   0.1    1.6  2  KNA24371.1  hypothetical protein SOVF_016060 [Spinacia olerac
+    6.6e-56  190.8   0.0    1.2e-43  150.4   0.0    2.3  2  KNA19383.1  hypothetical protein SOVF_062070 isoform A [Spina
+    6.8e-56  190.7   0.0    1.2e-43  150.4   0.0    2.3  2  KNA19384.1  hypothetical protein SOVF_062070 isoform B [Spina
+    1.2e-50  173.5   0.0    1.4e-50  173.2   0.0    1.2  1  KNA15326.1  hypothetical protein SOVF_099200 [Spinacia olerac
+    2.4e-49  169.2   0.0    4.1e-49  168.4   0.0    1.2  1  KNA08286.1  hypothetical protein SOVF_163970 [Spinacia olerac
+    2.4e-49  169.2   0.0    3.4e-49  168.7   0.0    1.1  1  KNA12069.1  hypothetical protein SOVF_129060 [Spinacia olerac
+    2.1e-48  166.1   0.0      4e-48  165.1   0.0    1.4  1  KNA24905.1  hypothetical protein SOVF_010900 [Spinacia olerac
+    2.2e-46  159.4   0.0      3e-46  159.0   0.0    1.1  1  KNA08788.1  hypothetical protein SOVF_159630 [Spinacia olerac
+    9.6e-46  157.3   0.0    9.6e-46  157.3   0.0    1.6  1  KNA10906.1  hypothetical protein SOVF_140000 isoform B [Spina
+      1e-45  157.2   0.0      1e-45  157.2   0.0    1.6  1  KNA10905.1  hypothetical protein SOVF_140000 isoform A [Spina
+    1.4e-45  156.7   0.0    1.8e-45  156.4   0.0    1.1  1  KNA16314.1  hypothetical protein SOVF_090310 [Spinacia olerac
+    6.7e-44  151.2   0.0    1.1e-43  150.5   0.0    1.3  1  KNA08972.1  hypothetical protein SOVF_157840 [Spinacia olerac
+    2.9e-43  149.1   0.1    5.6e-43  148.2   0.1    1.4  1  KNA19931.1  hypothetical protein SOVF_056920 isoform B, parti
+    3.4e-43  148.9   0.1    6.5e-43  148.0   0.1    1.4  1  KNA19930.1  hypothetical protein SOVF_056920 isoform A, parti
+    7.9e-43  147.7   0.2    1.4e-42  146.9   0.2    1.4  1  KNA08786.1  hypothetical protein SOVF_159610 isoform B [Spina
+      8e-43  147.7   0.2    1.4e-42  146.9   0.2    1.4  1  KNA08785.1  hypothetical protein SOVF_159610 isoform A [Spina
+    6.2e-42  144.8   0.4      3e-40  139.2   0.3    2.2  2  KNA25638.1  hypothetical protein SOVF_004730 [Spinacia olerac
+    9.8e-42  144.1   0.2      2e-41  143.1   0.1    1.4  1  KNA07898.1  hypothetical protein SOVF_167600 [Spinacia olerac
+    3.8e-39  135.6   0.0    6.4e-39  134.8   0.0    1.3  1  KNA13972.1  hypothetical protein SOVF_111660 [Spinacia olerac
+      9e-35  121.2   0.0    1.7e-34  120.2   0.0    1.4  1  KNA25350.1  hypothetical protein SOVF_007440 [Spinacia olerac
+      7e-34  118.2   4.0    8.5e-32  111.4   0.7    2.0  2  KNA10074.1  hypothetical protein SOVF_147780, partial [Spinac
+    9.5e-34  117.8   0.0    1.2e-33  117.4   0.0    1.1  1  KNA05072.1  hypothetical protein SOVF_193770, partial [Spinac
+    7.3e-31  108.3   0.0    8.7e-31  108.0   0.0    1.0  1  KNA24593.1  hypothetical protein SOVF_014200 [Spinacia olerac
+    1.2e-29  104.3   0.9    1.2e-29  104.3   0.9    2.1  2  KNA05484.1  hypothetical protein SOVF_189840 [Spinacia olerac
+      9e-26   91.5   0.1      1e-25   91.3   0.1    1.1  1  KNA07124.1  hypothetical protein SOVF_174840 [Spinacia olerac
+    2.7e-25   89.9   0.9    4.6e-25   89.2   0.2    1.6  2  KNA10321.1  hypothetical protein SOVF_145430 [Spinacia olerac
+    2.2e-21   77.0   0.4    2.4e-21   76.9   0.4    1.0  1  KNA25659.1  hypothetical protein SOVF_004580 [Spinacia olerac
+    9.5e-18   65.1   0.0    9.5e-18   65.1   0.0    2.6  1  KNA20205.1  hypothetical protein SOVF_054530 [Spinacia olerac
+    2.2e-14   54.0   0.1      1e-13   51.8   0.1    1.9  1  KNA24087.1  hypothetical protein SOVF_019050 [Spinacia olerac
+      6e-13   49.3   0.0    3.5e-05   23.7   0.0    2.3  2  KNA03353.1  hypothetical protein SOVF_210020 [Spinacia olerac
+    4.5e-12   46.4   0.6    2.9e-05   23.9   0.0    2.8  3  KNA19279.1  hypothetical protein SOVF_062640 [Spinacia olerac
+    5.4e-12   46.1   9.2      5e-06   26.4   0.0    3.2  2  KNA17203.1  hypothetical protein SOVF_081610 [Spinacia olerac
+    5.4e-12   46.1   0.6    9.3e-06   25.6   0.0    2.4  2  KNA12944.1  hypothetical protein SOVF_120510 [Spinacia olerac
+    9.2e-12   45.3   0.0    1.8e-11   44.4   0.0    1.4  1  KNA05866.1  hypothetical protein SOVF_186220 isoform B [Spina
+    1.1e-11   45.1   0.0    2.1e-11   44.2   0.0    1.4  1  KNA05865.1  hypothetical protein SOVF_186220 isoform A [Spina
+    6.2e-11   42.6   1.5    5.7e-10   39.4   0.0    2.7  1  KNA10078.1  hypothetical protein SOVF_147720 [Spinacia olerac
+    1.3e-10   41.6   0.0    1.5e-10   41.3   0.0    1.0  1  KNA12428.1  hypothetical protein SOVF_125930 [Spinacia olerac
+    3.2e-10   40.3   0.0    0.00069   19.4   0.0    2.3  2  KNA10079.1  hypothetical protein SOVF_147730 [Spinacia olerac
+    5.5e-10   39.5   0.0    0.00023   21.0   0.0    2.4  2  KNA09546.1  hypothetical protein SOVF_152560 [Spinacia olerac
+    1.1e-09   38.5   0.1    1.1e-09   38.5   0.1    2.4  1  KNA08215.1  hypothetical protein SOVF_164760 [Spinacia olerac
+    5.4e-09   36.2   0.1    5.5e-09   36.2   0.1    1.0  1  KNA21734.1  hypothetical protein SOVF_040360 [Spinacia olerac
+    2.2e-08   34.2   0.0      3e-08   33.8   0.0    1.1  1  KNA18522.1  hypothetical protein SOVF_069910 [Spinacia olerac
+    1.5e-07   31.5   0.0    1.7e-07   31.3   0.0    1.0  1  KNA03601.1  hypothetical protein SOVF_207570, partial [Spinac
+    4.2e-07   30.0   0.0    5.6e-07   29.6   0.0    1.1  1  KNA04208.1  hypothetical protein SOVF_201800, partial [Spinac
+    1.3e-06   28.4   0.1    1.8e-06   27.9   0.1    1.1  1  KNA05190.1  hypothetical protein SOVF_192640 isoform B [Spina
+    1.7e-06   28.0   0.1    2.4e-06   27.5   0.1    1.1  1  KNA05189.1  hypothetical protein SOVF_192640 isoform A [Spina
+    4.4e-06   26.6   0.0    8.4e-05   22.4   0.0    2.1  1  KNA25601.1  hypothetical protein SOVF_005180 [Spinacia olerac
+    6.4e-06   26.1   0.1      1e-05   25.4   0.1    1.2  1  KNA11811.1  hypothetical protein SOVF_131670 [Spinacia olerac
+    6.6e-05   22.8   0.1     0.0001   22.1   0.1    1.2  1  KNA13148.1  hypothetical protein SOVF_119410 [Spinacia olerac
+    0.00018   21.3   0.0    0.00034   20.4   0.0    1.4  1  KNA25826.1  hypothetical protein SOVF_002930 [Spinacia olerac
+     0.0012   18.6   0.0     0.0046   16.7   0.0    1.7  2  KNA19261.1  hypothetical protein SOVF_063200 [Spinacia olerac
+      0.002   17.9   0.0        1.7    8.2   0.0    2.2  2  KNA19712.1  hypothetical protein SOVF_058970 [Spinacia olerac
+     0.0032   17.2   0.1      0.011   15.4   0.0    1.7  2  KNA05205.1  hypothetical protein SOVF_192210 [Spinacia olerac
+  ------ inclusion threshold ------
+      0.012   15.3   0.0      0.013   15.2   0.0    1.0  1  KNA09408.1  hypothetical protein SOVF_153840 [Spinacia olerac
+      0.045   13.4   0.0      0.063   12.9   0.0    1.3  1  KNA24499.1  hypothetical protein SOVF_014960 [Spinacia olerac
+      0.059   13.0   0.2       0.12   12.0   0.2    1.5  1  KNA20954.1  hypothetical protein SOVF_047660 [Spinacia olerac
+       0.13   12.0   0.0         21    4.6   0.0    2.4  2  KNA21811.1  hypothetical protein SOVF_039840 [Spinacia olerac
+       0.28   10.8   6.4       0.39   10.3   0.7    2.8  2  KNA25984.1  hypothetical protein SOVF_000880 [Spinacia olerac
+        2.9    7.5  10.2       0.41   10.3   0.6    2.9  2  KNA06534.1  hypothetical protein SOVF_180150 [Spinacia olerac
+
+
+Domain annotation for each sequence:
+>> KNA09163.1  hypothetical protein SOVF_156090 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  790.5   3.7  2.4e-240  6.3e-238      14     425 ..      15     426 ..       3     427 .] 0.98
+
+>> KNA08754.1  hypothetical protein SOVF_159730 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.1   0.2   7.5e-71     2e-68     139     408 ..     161     439 ..      28     457 .. 0.78
+   2 !  232.8   0.0   4.6e-71   1.2e-68     163     406 ..     470     714 ..     458     743 .. 0.94
+
+>> KNA22919.1  hypothetical protein SOVF_029600 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.6   0.2     1e-70   2.7e-68     139     408 ..     161     439 ..      30     457 .. 0.78
+   2 !  232.7   0.0   4.7e-71   1.2e-68     163     406 ..     470     714 ..     458     742 .. 0.94
+
+>> KNA06205.1  hypothetical protein SOVF_183180 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.5   0.2   5.7e-71   1.5e-68      20     408 ..      42     439 ..      23     459 .. 0.77
+   2 !  231.3   0.0   1.3e-70   3.3e-68     164     405 ..     471     713 ..     461     746 .. 0.93
+
+>> KNA09671.1  hypothetical protein SOVF_151390 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.5   0.2   7.5e-69     2e-66     166     408 ..     204     444 ..     166     463 .. 0.91
+   2 !  227.2   0.0   2.2e-69   5.8e-67     163     406 ..     475     719 ..     457     751 .. 0.93
+
+>> KNA09495.1  hypothetical protein SOVF_152710 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.6   0.0   2.8e-51   7.4e-49     158     399 ..     399     636 ..     366     658 .. 0.88
+   2 !  126.6   0.0   7.5e-39     2e-36     157     305 ..     740     889 ..     658     894 .. 0.87
+   3 !  128.0   0.0   2.9e-39   7.7e-37     234     415 ..     896    1078 ..     889    1089 .. 0.95
+
+>> KNA09496.1  hypothetical protein SOVF_152710 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.6   0.0   2.9e-51   7.5e-49     158     399 ..     399     636 ..     366     658 .. 0.88
+   2 !  126.6   0.0   7.5e-39     2e-36     157     305 ..     740     889 ..     658     894 .. 0.87
+   3 !  128.0   0.0   2.9e-39   7.7e-37     234     415 ..     896    1078 ..     889    1089 .. 0.95
+
+>> KNA07873.1  hypothetical protein SOVF_167680 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  399.5   1.7  1.1e-121    3e-119     101     420 ..     117     436 ..      62     442 .. 0.94
+
+>> KNA07027.1  hypothetical protein SOVF_175230 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.5   0.4  2.3e-121  6.1e-119     107     422 ..      88     404 ..      28     408 .. 0.91
+
+>> KNA06207.1  hypothetical protein SOVF_183190 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  394.6   1.1  3.4e-120  8.8e-118      68     421 ..      45     395 ..       3     400 .. 0.86
+
+>> KNA12621.1  hypothetical protein SOVF_124000 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  386.8   0.4  7.9e-118  2.1e-115      93     416 ..      88     411 ..       5     422 .. 0.84
+
+>> KNA09723.1  hypothetical protein SOVF_151020 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.8   0.4   0.00027     0.071      14      89 ..      29     104 ..      17     112 .. 0.83
+   2 !  367.1   0.1  7.6e-112    2e-109     113     413 ..     107     407 ..     102     419 .. 0.97
+
+>> KNA03964.1  hypothetical protein SOVF_204140 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.0   0.0   4.4e-48   1.2e-45     172     407 ..      16     254 ..       4     262 .. 0.91
+   2 !  210.4   0.0   2.7e-64   7.2e-62     166     405 ..     280     519 ..     267     565 .. 0.92
+
+>> KNA23194.1  hypothetical protein SOVF_027030 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  360.7   2.6  6.6e-110  1.7e-107     107     421 ..      71     385 ..       1     391 [. 0.89
+
+>> KNA23195.1  hypothetical protein SOVF_027040 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  360.7   3.6  6.9e-110  1.8e-107     107     421 ..      71     385 ..       4     391 .. 0.90
+
+>> KNA13497.1  hypothetical protein SOVF_115700 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.8   0.1     2e-50   5.1e-48     149     398 ..     221     484 ..     200     502 .. 0.88
+   2 !  155.4   0.0   1.4e-47   3.7e-45     168     413 ..     543     798 ..     511     812 .. 0.90
+
+>> KNA25748.1  hypothetical protein SOVF_004100 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  320.3   0.0   1.2e-97   3.2e-95      93     416 ..      60     377 ..      17     388 .. 0.91
+
+>> KNA08257.1  hypothetical protein SOVF_164130 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.7   0.0   1.5e-28   3.9e-26     168     288 ..     190     311 ..      98     335 .. 0.86
+   2 !   52.9   0.0   1.8e-16   4.6e-14     311     397 ..     362     448 ..     359     473 .. 0.90
+   3 !  151.8   0.0   1.8e-46   4.6e-44     165     391 ..     508     732 ..     477     760 .. 0.89
+
+>> KNA03278.1  hypothetical protein SOVF_210740, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.5   0.1   6.4e-82   1.7e-79     226     420 ..       1     195 [.       1     201 [. 0.99
+
+>> KNA17612.1  hypothetical protein SOVF_078600 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.5   0.3     1e-73   2.6e-71     160     418 ..     241     500 ..     232     515 .. 0.93
+
+>> KNA17405.1  hypothetical protein SOVF_080200 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  229.0   0.3   6.3e-70   1.6e-67     167     418 ..     223     473 ..     212     490 .. 0.95
+
+>> KNA05337.1  hypothetical protein SOVF_191360 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  219.8   2.0     4e-67     1e-64     156     415 ..     311     575 ..      72     598 .. 0.91
+
+>> KNA22855.1  hypothetical protein SOVF_030070 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.0   0.1   2.2e-65   5.8e-63     167     416 ..     323     574 ..     310     593 .. 0.91
+
+>> KNA03057.1  hypothetical protein SOVF_212790 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  212.5   0.6   6.6e-65   1.7e-62     162     418 ..     338     600 ..     322     616 .. 0.90
+
+>> KNA07655.1  hypothetical protein SOVF_169620 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  207.7   0.1   1.9e-63     5e-61     169     416 ..     323     568 ..     312     580 .. 0.93
+
+>> KNA18724.1  hypothetical protein SOVF_068170 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.0   8.2   1.2e-62   3.1e-60      39     410 ..     224     641 ..     212     673 .. 0.67
+
+>> KNA18064.1  hypothetical protein SOVF_074330 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  204.4   0.0   1.9e-62   4.9e-60     163     416 ..     427     687 ..     415     699 .. 0.93
+
+>> KNA13845.1  hypothetical protein SOVF_112890 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.019       5.1     209     279 ..     386     456 ..     380     471 .. 0.92
+   2 ?    0.4   0.0       1.5   3.9e+02     312     391 ..     514     596 ..     498     624 .. 0.72
+   3 !  187.8   0.0     2e-57   5.3e-55     162     402 ..     649     890 ..     604     914 .. 0.87
+
+>> KNA13844.1  hypothetical protein SOVF_112890 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.019       5.1     209     279 ..     386     456 ..     380     471 .. 0.92
+   2 ?    0.3   0.0       1.7   4.4e+02     312     391 ..     514     597 ..     498     627 .. 0.70
+   3 !  187.6   0.0   2.3e-57     6e-55     164     402 ..     652     891 ..     616     915 .. 0.88
+
+>> KNA13846.1  hypothetical protein SOVF_112890 isoform C [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.019         5     209     279 ..     386     456 ..     380     472 .. 0.92
+   2 ?   -0.0   0.0       2.1   5.5e+02     312     391 ..     513     596 ..     509     627 .. 0.69
+   3 !  187.8   0.0     2e-57   5.3e-55     161     402 ..     648     890 ..     601     913 .. 0.87
+
+>> KNA07237.1  hypothetical protein SOVF_173640 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  197.7   0.1   2.1e-60   5.4e-58     163     405 ..     337     575 ..     321     602 .. 0.90
+
+>> KNA24371.1  hypothetical protein SOVF_016060 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  192.7   0.1   6.8e-59   1.8e-56     169     407 ..     223     457 ..     206     484 .. 0.91
+   2 ?   -2.1   0.2       8.8   2.3e+03      32      48 ..     639     658 ..     584     687 .. 0.42
+
+>> KNA19383.1  hypothetical protein SOVF_062070 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6   0.0   8.1e-12   2.1e-09     204     382 ..     583     776 ..     576     791 .. 0.78
+   2 !  150.4   0.0   4.4e-46   1.2e-43     160     396 ..     822    1059 ..     796    1066 .. 0.89
+
+>> KNA19384.1  hypothetical protein SOVF_062070 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6   0.0   8.1e-12   2.1e-09     204     382 ..     590     783 ..     583     798 .. 0.78
+   2 !  150.4   0.0   4.5e-46   1.2e-43     160     396 ..     829    1066 ..     803    1073 .. 0.89
+
+>> KNA15326.1  hypothetical protein SOVF_099200 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.2   0.0   5.5e-53   1.4e-50     158     399 ..     210     448 ..      68     482 .. 0.85
+
+>> KNA08286.1  hypothetical protein SOVF_163970 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.4   0.0   1.6e-51   4.1e-49     169     405 ..     388     627 ..     357     649 .. 0.88
+
+>> KNA12069.1  hypothetical protein SOVF_129060 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.7   0.0   1.3e-51   3.4e-49     157     403 ..     218     465 ..     183     502 .. 0.84
+
+>> KNA24905.1  hypothetical protein SOVF_010900 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  165.1   0.0   1.5e-50     4e-48     166     399 ..     611     847 ..     606     860 .. 0.91
+
+>> KNA08788.1  hypothetical protein SOVF_159630 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.0   0.0   1.2e-48     3e-46     160     389 ..     119     344 ..      98     367 .. 0.88
+
+>> KNA10906.1  hypothetical protein SOVF_140000 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.3   0.0   3.7e-48   9.6e-46     138     395 ..     661     919 ..     555     940 .. 0.85
+
+>> KNA10905.1  hypothetical protein SOVF_140000 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.2   0.0   3.8e-48     1e-45     138     395 ..     683     941 ..     577     962 .. 0.85
+
+>> KNA16314.1  hypothetical protein SOVF_090310 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.4   0.0   7.1e-48   1.8e-45     171     404 ..     109     339 ..      77     360 .. 0.89
+
+>> KNA08972.1  hypothetical protein SOVF_157840 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.5   0.0   4.3e-46   1.1e-43     158     397 ..     936    1175 ..     889    1228 .. 0.87
+
+>> KNA19931.1  hypothetical protein SOVF_056920 isoform B, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.2   0.1   2.1e-45   5.6e-43     155     407 ..     499     750 ..     474     778 .. 0.86
+
+>> KNA19930.1  hypothetical protein SOVF_056920 isoform A, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.0   0.1   2.5e-45   6.5e-43     155     401 ..     499     744 ..     473     775 .. 0.86
+
+>> KNA08786.1  hypothetical protein SOVF_159610 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.9   0.2   5.4e-45   1.4e-42     167     400 ..     929    1161 ..     768    1180 .. 0.85
+
+>> KNA08785.1  hypothetical protein SOVF_159610 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.9   0.2   5.5e-45   1.4e-42     167     400 ..     930    1162 ..     769    1181 .. 0.85
+
+>> KNA25638.1  hypothetical protein SOVF_004730 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  139.2   0.3   1.1e-42     3e-40     193     414 ..     230     476 ..      96     487 .. 0.82
+   2 ?    3.4   0.0      0.19        49     209     238 ..     526     555 ..     510     597 .. 0.76
+
+>> KNA07898.1  hypothetical protein SOVF_167600 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.1   0.1   7.6e-44     2e-41     154     405 ..     492     746 ..     464     776 .. 0.82
+
+>> KNA13972.1  hypothetical protein SOVF_111660 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  134.8   0.0   2.4e-41   6.4e-39     160     400 ..     371     615 ..     357     645 .. 0.81
+
+>> KNA25350.1  hypothetical protein SOVF_007440 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.2   0.0   6.6e-37   1.7e-34     181     410 ..     486     719 ..     466     747 .. 0.89
+
+>> KNA10074.1  hypothetical protein SOVF_147780, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.6   0.2    0.0025      0.65      38      89 ..      75     126 ..      49     135 .. 0.84
+   2 !  111.4   0.7   3.2e-34   8.5e-32     110     225 ..     126     241 .]     122     241 .] 0.95
+
+>> KNA05072.1  hypothetical protein SOVF_193770, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.4   0.0   4.6e-36   1.2e-33     171     408 ..     160     399 ..     132     439 .. 0.84
+
+>> KNA24593.1  hypothetical protein SOVF_014200 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.0   0.0   3.3e-33   8.7e-31     215     336 ..      27     147 .]      19     147 .] 0.96
+
+>> KNA05484.1  hypothetical protein SOVF_189840 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.4       1.1     3e+02      32      89 ..     142     200 ..      90     289 .. 0.72
+   2 !  104.3   0.9   4.4e-32   1.2e-29     165     359 ..     660     854 ..     637     884 .. 0.86
+
+>> KNA07124.1  hypothetical protein SOVF_174840 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.3   0.1     4e-28     1e-25     222     397 ..       1     173 [.       1     212 [. 0.92
+
+>> KNA10321.1  hypothetical protein SOVF_145430 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       9.2   2.4e+03      23      52 ..     201     229 ..     185     258 .. 0.63
+   2 !   89.2   0.2   1.8e-27   4.6e-25     157     227 ..     281     351 ..     255     357 .. 0.90
+
+>> KNA25659.1  hypothetical protein SOVF_004580 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.9   0.4   9.1e-24   2.4e-21     246     287 ..       1      42 []       1      42 [] 0.98
+
+>> KNA20205.1  hypothetical protein SOVF_054530 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.1   0.0   3.6e-20   9.5e-18     206     384 ..     393     592 ..     364     634 .. 0.79
+
+>> KNA24087.1  hypothetical protein SOVF_019050 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.8   0.1     4e-16     1e-13     185     342 ..     196     351 ..      81     359 .. 0.83
+
+>> KNA03353.1  hypothetical protein SOVF_210020 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.6   0.0   1.4e-07   3.7e-05     181     229 ..     144     192 ..       7     205 .. 0.70
+   2 !   23.7   0.0   1.4e-07   3.5e-05     296     347 ..     278     331 ..     250     353 .. 0.82
+
+>> KNA19279.1  hypothetical protein SOVF_062640 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.0   4.4e-06    0.0011     193     231 ..     221     259 ..     205     266 .. 0.87
+   2 !   23.9   0.0   1.1e-07   2.9e-05     296     345 ..     324     375 ..     318     384 .. 0.78
+   3 ?   -2.2   1.1       9.6   2.5e+03      23      64 ..     446     468 ..     393     477 .. 0.43
+
+>> KNA17203.1  hypothetical protein SOVF_081610 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0   1.6e-07   4.2e-05     172     229 ..     215     272 ..     169     285 .. 0.81
+   2 !   26.4   0.0   1.9e-08     5e-06     293     348 ..     355     412 ..     335     449 .. 0.80
+
+>> KNA12944.1  hypothetical protein SOVF_120510 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   0.1   3.7e-06   0.00098     196     229 ..     212     245 ..      51     254 .. 0.84
+   2 !   25.6   0.0   3.5e-08   9.3e-06     284     348 ..     320     383 ..     295     471 .. 0.78
+
+>> KNA05866.1  hypothetical protein SOVF_186220 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.4   0.0   6.9e-14   1.8e-11     360     403 ..      25      68 ..      21      97 .. 0.82
+
+>> KNA05865.1  hypothetical protein SOVF_186220 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.2   0.0   7.9e-14   2.1e-11     360     403 ..      25      68 ..      21      97 .. 0.82
+
+>> KNA10078.1  hypothetical protein SOVF_147720 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.4   0.0   2.2e-12   5.7e-10     193     342 ..     235     383 ..      46     391 .. 0.84
+
+>> KNA12428.1  hypothetical protein SOVF_125930 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.3   0.0   5.9e-13   1.5e-10     223     305 ..       1      82 [.       1      86 [. 0.89
+
+>> KNA10079.1  hypothetical protein SOVF_147730 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   2.6e-06   0.00069     195     232 ..     262     299 ..     247     309 .. 0.86
+   2 !   18.5   0.0   4.9e-06    0.0013     300     342 ..     375     419 ..     369     435 .. 0.83
+
+>> KNA09546.1  hypothetical protein SOVF_152560 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.9   0.0     3e-05    0.0077     206     230 ..     241     265 ..     228     273 .. 0.83
+   2 !   21.0   0.0   8.9e-07   0.00023     296     354 ..     340     400 ..     334     458 .. 0.77
+
+>> KNA08215.1  hypothetical protein SOVF_164760 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.5   0.1   4.1e-12   1.1e-09     205     341 ..     394     524 ..     356     525 .] 0.80
+
+>> KNA21734.1  hypothetical protein SOVF_040360 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2   0.1   2.1e-11   5.5e-09     317     345 ..       4      32 ..       2      34 .] 0.94
+
+>> KNA18522.1  hypothetical protein SOVF_069910 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   0.0   1.1e-10     3e-08     208     355 ..     224     390 ..     209     458 .. 0.75
+
+>> KNA03601.1  hypothetical protein SOVF_207570, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   0.0   6.7e-10   1.7e-07     255     359 ..      24     123 ..      15     153 .. 0.84
+
+>> KNA04208.1  hypothetical protein SOVF_201800, partial [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.0   2.2e-09   5.6e-07     360     409 ..       2      50 ..       1      78 [. 0.81
+
+>> KNA05190.1  hypothetical protein SOVF_192640 isoform B [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9   0.1   6.9e-09   1.8e-06     209     302 ..     317     419 ..     311     425 .. 0.76
+
+>> KNA05189.1  hypothetical protein SOVF_192640 isoform A [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.1   9.2e-09   2.4e-06     209     301 ..     317     418 ..     311     421 .. 0.76
+
+>> KNA25601.1  hypothetical protein SOVF_005180 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.0   3.2e-07   8.4e-05     194     344 ..     210     352 ..     205     378 .. 0.83
+
+>> KNA11811.1  hypothetical protein SOVF_131670 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   0.1   3.9e-08     1e-05     209     301 ..     322     423 ..     308     426 .. 0.72
+
+>> KNA13148.1  hypothetical protein SOVF_119410 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   0.1   3.9e-07    0.0001     210     301 ..     226     326 ..     219     329 .. 0.72
+
+>> KNA25826.1  hypothetical protein SOVF_002930 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.0   1.3e-06   0.00034     289     344 ..     242     299 ..     231     400 .. 0.81
+
+>> KNA19261.1  hypothetical protein SOVF_063200 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   1.8e-05    0.0046     210     276 ..     175     243 ..     167     253 .. 0.67
+   2 ?   -1.2   0.0       4.7   1.2e+03      67      94 ..     307     334 ..     300     376 .. 0.63
+
+>> KNA19712.1  hypothetical protein SOVF_058970 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.2   0.0    0.0066       1.7     191     228 ..      98     135 ..      84     163 .. 0.86
+   2 ?    7.4   0.0     0.012         3     300     343 ..     190     235 ..     186     242 .. 0.77
+
+>> KNA05205.1  hypothetical protein SOVF_192210 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.0   4.2e-05     0.011     210     230 ..      45      65 ..      29      74 .. 0.89
+   2 ?   -0.8   0.0       3.5   9.1e+02      46     151 ..     125     249 ..      87     307 .. 0.57
+
+>> KNA09408.1  hypothetical protein SOVF_153840 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   4.8e-05     0.013     165     210 ..      25      67 ..       5      71 .. 0.89
+
+>> KNA24499.1  hypothetical protein SOVF_014960 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00024     0.063     210     229 ..      76      95 ..      71     180 .. 0.77
+
+>> KNA20954.1  hypothetical protein SOVF_047660 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.2   0.00045      0.12     189     226 ..     179     216 ..     132     269 .. 0.78
+
+>> KNA21811.1  hypothetical protein SOVF_039840 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0     0.086        23     211     226 ..     519     534 ..     508     557 .. 0.86
+   2 ?    4.6   0.0      0.08        21     328     382 ..     811     865 ..     800     901 .. 0.85
+
+>> KNA25984.1  hypothetical protein SOVF_000880 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.7    0.0015      0.39     207     230 ..      66      89 ..      57     119 .. 0.81
+   2 ?    2.7   0.1       0.3        78      79     147 ..     130     199 ..     103     214 .. 0.68
+
+>> KNA06534.1  hypothetical protein SOVF_180150 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.6    0.0016      0.41     207     230 ..      66      89 ..      57     109 .. 0.80
+   2 ?    2.7   0.1      0.31        80      83     147 ..     134     199 ..     111     220 .. 0.68
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (426 nodes)
+Target sequences:                      23522  (9260641 residues searched)
+Passed MSV filter:                      1169  (0.0496982); expected 470.4 (0.02)
+Passed bias filter:                      592  (0.0251679); expected 470.4 (0.02)
+Passed Vit filter:                       180  (0.00765241); expected 23.5 (0.001)
+Passed Fwd filter:                        91  (0.00386872); expected 0.2 (1e-05)
+Initial search space (Z):              23522  [actual number of targets]
+Domain search space  (domZ):              90  [number of targets reported over threshold]
+# CPU time: 0.33u 0.01s 00:00:00.34 Elapsed: 00:00:00.05
+# Mc/sec: 73569.22
+//
+[ok]

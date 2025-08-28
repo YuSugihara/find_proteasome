@@ -1,0 +1,68 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPN9.hmm
+# target sequence database:        proteomes/Oryza_sativa.faa
+# per-seq hits tabular output:     Oryza_sativa/hmmsearch/Oryza_sativa_RPN9.tblout
+# per-dom hits tabular output:     Oryza_sativa/hmmsearch/Oryza_sativa_RPN9.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR10539.SF0.pir  [M=385]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+   5.7e-175  583.1   1.8   6.9e-175  582.8   1.8    1.0  1  GCF_001433935.1_NC_029256.1_004040.1  
+   7.8e-173  576.0   4.0   8.6e-173  575.9   4.0    1.0  1  GCF_001433935.1_NC_029258.1_000460.1  
+    3.9e-19   70.1   1.1    7.9e-19   69.1   1.1    1.6  1  GCF_001433935.1_NC_029259.1_003376.1  
+    1.1e-09   39.0   0.1      3e-09   37.5   0.0    1.7  1  GCF_001433935.1_NC_029262.1_002278.1  
+    5.7e-05   23.5   5.8    6.2e-05   23.4   0.6    2.3  2  GCF_001433935.1_NC_029256.1_000638.1  
+
+
+Domain annotation for each sequence:
+>> GCF_001433935.1_NC_029256.1_004040.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  582.8   1.8    9e-179  6.9e-175       4     384 ..      74     455 ..      55     456 .] 0.99
+
+>> GCF_001433935.1_NC_029258.1_000460.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  575.9   4.0  1.1e-176  8.6e-173       5     384 ..       4     384 ..       1     385 [] 0.99
+
+>> GCF_001433935.1_NC_029259.1_003376.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.1   1.1     1e-22   7.9e-19     175     378 ..     199     400 ..      66     403 .. 0.79
+
+>> GCF_001433935.1_NC_029262.1_002278.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.5   0.0     4e-13     3e-09     206     378 ..      34     195 ..      15     203 .. 0.81
+
+>> GCF_001433935.1_NC_029256.1_000638.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.5     0.017   1.3e+02      17      60 ..     127     175 ..      50     250 .. 0.60
+   2 !   23.4   0.6   8.1e-09   6.2e-05     238     337 ..     307     403 ..     301     406 .. 0.91
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (385 nodes)
+Target sequences:                      38104  (15334007 residues searched)
+Passed MSV filter:                      1213  (0.0318339); expected 762.1 (0.02)
+Passed bias filter:                      726  (0.0190531); expected 762.1 (0.02)
+Passed Vit filter:                        78  (0.00204703); expected 38.1 (0.001)
+Passed Fwd filter:                         5  (0.00013122); expected 0.4 (1e-05)
+Initial search space (Z):              38104  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.04
+# Mc/sec: 125852.14
+//
+[ok]

@@ -1,0 +1,15 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCF_001433935.1_NC_029260.1_001485.1 -            306 PTHR12225.SF0.pir    -            302  7.9e-111  371.5   0.0   1   1  4.8e-115  9.2e-111  371.3   0.0     8   295    10   292     1   301 0.92 -
+GCF_001433935.1_NC_029259.1_002598.1 -            432 PTHR12225.SF0.pir    -            302   6.8e-07   30.2   7.8   1   1     9e-11   1.7e-06   28.9   7.8   134   275   205   376   127   404 0.64 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN13.hmm
+# Target file:     proteomes/Oryza_sativa.faa
+# Option settings: hmmsearch --tblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN13.tblout --domtblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN13.domtblout --noali --cpu 8 models/RPN13.hmm proteomes/Oryza_sativa.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:33:13 2025
+# [ok]

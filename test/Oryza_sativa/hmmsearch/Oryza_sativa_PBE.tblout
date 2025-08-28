@@ -1,0 +1,30 @@
+#                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GCF_001433935.1_NC_029261.1_002845.1 -          PTHR11599.SF51.pir   -            1.9e-96  323.7   1.3   2.2e-96  323.5   1.3   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029261.1_002906.1 -          PTHR11599.SF51.pir   -            1.4e-22   81.5   0.4   1.8e-22   81.2   0.4   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029257.1_002234.1 -          PTHR11599.SF51.pir   -            9.4e-22   78.9   0.6   1.1e-21   78.6   0.6   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029260.1_000303.1 -          PTHR11599.SF51.pir   -            3.2e-14   54.2   0.1   4.2e-14   53.8   0.1   1.1   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029258.1_002757.1 -          PTHR11599.SF51.pir   -            1.5e-12   48.7   0.1     2e-12   48.3   0.1   1.1   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029266.1_001670.1 -          PTHR11599.SF51.pir   -            2.6e-12   47.9   0.0   4.1e-12   47.2   0.0   1.3   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029258.1_001046.1 -          PTHR11599.SF51.pir   -            2.6e-09   38.1   0.0     3e-09   37.9   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029257.1_001308.1 -          PTHR11599.SF51.pir   -            3.2e-09   37.8   0.0   3.9e-09   37.5   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029261.1_000252.1 -          PTHR11599.SF51.pir   -            4.2e-09   37.4   0.2   5.2e-09   37.1   0.2   1.1   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029261.1_000283.1 -          PTHR11599.SF51.pir   -            5.7e-09   37.0   0.3   6.9e-09   36.7   0.3   1.1   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029261.1_000291.1 -          PTHR11599.SF51.pir   -            5.7e-09   37.0   0.3   6.9e-09   36.7   0.3   1.1   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029257.1_000138.1 -          PTHR11599.SF51.pir   -            7.2e-09   36.6   0.0   1.2e-08   35.9   0.0   1.3   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029257.1_003638.1 -          PTHR11599.SF51.pir   -            2.7e-08   34.7   0.0   3.2e-08   34.5   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029261.1_001832.1 -          PTHR11599.SF51.pir   -            6.5e-08   33.5   0.0   8.2e-08   33.2   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029264.1_000780.1 -          PTHR11599.SF51.pir   -            8.1e-06   26.6   0.9   3.4e-05   24.6   0.9   1.9   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029263.1_001170.1 -          PTHR11599.SF51.pir   -            1.5e-05   25.8   1.9   0.00012   22.8   1.9   2.2   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029264.1_001298.1 -          PTHR11599.SF51.pir   -              0.017   15.8   0.0      0.32   11.5   0.0   2.0   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/PBE.hmm
+# Target file:     proteomes/Oryza_sativa.faa
+# Option settings: hmmsearch --tblout Oryza_sativa/hmmsearch/Oryza_sativa_PBE.tblout --domtblout Oryza_sativa/hmmsearch/Oryza_sativa_PBE.domtblout --noali --cpu 8 models/PBE.hmm proteomes/Oryza_sativa.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:33:12 2025
+# [ok]

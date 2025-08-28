@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AT1G20200.1          -            488 PTHR10758.SF2.pir    -            491  1.6e-219  731.2   6.8   1   1  2.2e-223  1.8e-219  731.0   6.8    25   491    11   488     1   488 0.95 pep chromosome:TAIR10:1:7001087:7004432:-1 gene:AT1G20200 transcript:AT1G20200.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:EMB2719 description:PAM domain (PCI/PINT associated module) protein [Source:NCBI gene (formerly Entrezgene);Acc:838609]
+AT1G75990.1          -            487 PTHR10758.SF2.pir    -            491  2.8e-217  723.8   8.0   1   1  3.9e-221  3.1e-217  723.6   8.0    25   491    11   487     1   487 0.96 pep chromosome:TAIR10:1:28524404:28526848:-1 gene:AT1G75990 transcript:AT1G75990.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:AT1G75990 description:PAM domain (PCI/PINT associated module) protein [Source:NCBI gene (formerly Entrezgene);Acc:843931]
+AT5G14250.1          -            429 PTHR10758.SF2.pir    -            491   4.1e-16   60.3   0.4   1   1   6.9e-20   5.6e-16   59.9   0.4   234   444   171   386   143   394 0.86 pep chromosome:TAIR10:5:4597868:4600835:1 gene:AT5G14250 transcript:AT5G14250.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:COP13 description:Proteasome component (PCI) domain protein [Source:NCBI gene (formerly Entrezgene);Acc:831275]
+AT2G19560.2          -            314 PTHR10758.SF2.pir    -            491   3.5e-11   44.0   1.1   1   1   4.9e-15     4e-11   43.8   1.1   242   370   115   238    77   301 0.84 pep chromosome:TAIR10:2:8465761:8468071:-1 gene:AT2G19560 transcript:AT2G19560.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:EER5 description:proteasome family protein [Source:NCBI gene (formerly Entrezgene);Acc:816475]
+AT2G19560.1          -            413 PTHR10758.SF2.pir    -            491   5.7e-11   43.3   1.1   1   1   9.5e-15   7.7e-11   42.9   1.1   242   370   214   337   177   400 0.84 pep chromosome:TAIR10:2:8465690:8469145:-1 gene:AT2G19560 transcript:AT2G19560.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:EER5 description:proteasome family protein [Source:NCBI gene (formerly Entrezgene);Acc:816475]
+AT5G14250.2          -            356 PTHR10758.SF2.pir    -            491   5.6e-08   33.5   0.3   1   1   9.3e-12   7.5e-08   33.0   0.3   234   396   171   338   142   343 0.83 pep chromosome:TAIR10:5:4597886:4600759:1 gene:AT5G14250 transcript:AT5G14250.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:COP13 description:Proteasome component (PCI) domain protein [Source:NCBI gene (formerly Entrezgene);Acc:831275]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN3.hmm
+# Target file:     proteomes/Arabidopsis_thaliana.faa
+# Option settings: hmmsearch --tblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN3.tblout --domtblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN3.domtblout --noali --cpu 8 models/RPN3.hmm proteomes/Arabidopsis_thaliana.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:10 2025
+# [ok]

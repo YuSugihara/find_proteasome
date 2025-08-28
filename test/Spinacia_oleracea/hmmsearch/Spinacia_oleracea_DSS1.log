@@ -1,0 +1,43 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/DSS1.hmm
+# target sequence database:        proteomes/Spinacia_oleracea.faa
+# per-seq hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_DSS1.tblout
+# per-dom hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_DSS1.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR16771.orig.30.pir  [M=76]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    3.7e-29  101.1  21.1      4e-29  101.0  21.1    1.0  1  KNA11844.1  hypothetical protein SOVF_131370 [Spinacia olerac
+
+
+Domain annotation for each sequence:
+>> KNA11844.1  hypothetical protein SOVF_131370 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.0  21.1   1.7e-33     4e-29       1      75 [.       1      74 [.       1      75 [] 0.92
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (76 nodes)
+Target sequences:                      23522  (9260641 residues searched)
+Passed MSV filter:                      1526  (0.0648754); expected 470.4 (0.02)
+Passed bias filter:                      663  (0.0281864); expected 470.4 (0.02)
+Passed Vit filter:                        55  (0.00233824); expected 23.5 (0.001)
+Passed Fwd filter:                         2  (8.50268e-05); expected 0.2 (1e-05)
+Initial search space (Z):              23522  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 23704.58
+//
+[ok]

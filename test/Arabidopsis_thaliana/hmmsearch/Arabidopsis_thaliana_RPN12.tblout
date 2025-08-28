@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AT1G64520.1          -          PTHR12387.SF0.pir    -           3.3e-105  352.7   1.7  3.7e-105  352.6   1.7   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:1:23956269:23958461:1 gene:AT1G64520 transcript:AT1G64520.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN12a description:regulatory particle non-ATPase 12A [Source:NCBI gene (formerly Entrezgene);Acc:842760]
+AT5G42040.1          -          PTHR12387.SF0.pir    -            3.2e-69  234.7   0.7   3.9e-65  221.3   0.1   2.0   1   1   1   2   2   2   2 pep chromosome:TAIR10:5:16813565:16814749:-1 gene:AT5G42040 transcript:AT5G42040.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN12b description:regulatory particle non-ATPase 12B [Source:NCBI gene (formerly Entrezgene);Acc:834209]
+AT3G59280.1          -          PTHR12387.SF0.pir    -                0.1   13.3   0.1      0.12   13.1   0.1   1.1   1   0   0   1   1   1   0 pep chromosome:TAIR10:3:21908539:21910722:-1 gene:AT3G59280 transcript:AT3G59280.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TXR1 description:Protein Transporter, Pam16 [Source:NCBI gene (formerly Entrezgene);Acc:825097]
+AT3G59280.2          -          PTHR12387.SF0.pir    -                0.1   13.3   0.1      0.12   13.1   0.1   1.1   1   0   0   1   1   1   0 pep chromosome:TAIR10:3:21908429:21910738:-1 gene:AT3G59280 transcript:AT3G59280.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TXR1 description:Protein Transporter, Pam16 [Source:NCBI gene (formerly Entrezgene);Acc:825097]
+AT4G14110.1          -          PTHR12387.SF0.pir    -               0.41   11.3   0.1       0.5   11.0   0.1   1.1   1   0   0   1   1   1   0 pep chromosome:TAIR10:4:8132880:8134988:-1 gene:AT4G14110 transcript:AT4G14110.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:COP9 description:COP9 signalosome, subunit CSN8 [Source:NCBI gene (formerly Entrezgene);Acc:827049]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN12.hmm
+# Target file:     proteomes/Arabidopsis_thaliana.faa
+# Option settings: hmmsearch --tblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN12.tblout --domtblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN12.domtblout --noali --cpu 8 models/RPN12.hmm proteomes/Arabidopsis_thaliana.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:10 2025
+# [ok]

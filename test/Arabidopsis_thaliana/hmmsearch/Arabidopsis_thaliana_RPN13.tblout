@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AT2G26590.1          -          PTHR12225.SF0.pir    -           6.2e-119  398.4   0.0  6.7e-119  398.3   0.0   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:2:11310957:11315524:-1 gene:AT2G26590 transcript:AT2G26590.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN13 description:regulatory particle non-ATPase 13 [Source:NCBI gene (formerly Entrezgene);Acc:817200]
+AT2G26590.2          -          PTHR12225.SF0.pir    -           6.2e-119  398.4   0.0  6.7e-119  398.3   0.0   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:2:11310957:11314986:-1 gene:AT2G26590 transcript:AT2G26590.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN13 description:regulatory particle non-ATPase 13 [Source:NCBI gene (formerly Entrezgene);Acc:817200]
+AT2G26590.3          -          PTHR12225.SF0.pir    -           6.2e-119  398.4   0.0  6.7e-119  398.3   0.0   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:2:11310957:11315524:-1 gene:AT2G26590 transcript:AT2G26590.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN13 description:regulatory particle non-ATPase 13 [Source:NCBI gene (formerly Entrezgene);Acc:817200]
+AT2G26590.4          -          PTHR12225.SF0.pir    -           1.1e-117  394.3   0.0  1.2e-117  394.2   0.0   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:2:11311004:11315096:-1 gene:AT2G26590 transcript:AT2G26590.4 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN13 description:regulatory particle non-ATPase 13 [Source:NCBI gene (formerly Entrezgene);Acc:817200]
+AT5G16620.1          -          PTHR12225.SF0.pir    -            7.7e-08   33.6   4.4   1.7e-07   32.5   4.4   1.5   1   1   0   1   1   1   1 pep chromosome:TAIR10:5:5450620:5454577:1 gene:AT5G16620 transcript:AT5G16620.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TIC40 description:hydroxyproline-rich glycoprotein family protein [Source:NCBI gene (formerly Entrezgene);Acc:831524]
+AT4G17570.1          -          PTHR12225.SF0.pir    -            4.2e-05   24.7   0.7   4.2e-05   24.7   0.7   2.1   2   0   0   2   2   2   1 pep chromosome:TAIR10:4:9783782:9787520:-1 gene:AT4G17570 transcript:AT4G17570.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:GATA26 description:GATA transcription factor 26 [Source:NCBI gene (formerly Entrezgene);Acc:827474]
+AT4G17570.3          -          PTHR12225.SF0.pir    -            4.3e-05   24.6   0.7   4.3e-05   24.6   0.7   2.1   2   0   0   2   2   2   1 pep chromosome:TAIR10:4:9783782:9787528:-1 gene:AT4G17570 transcript:AT4G17570.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:GATA26 description:GATA transcription factor 26 [Source:NCBI gene (formerly Entrezgene);Acc:827474]
+AT4G17570.2          -          PTHR12225.SF0.pir    -            4.5e-05   24.6   0.7   4.5e-05   24.6   0.7   2.1   2   0   0   2   2   2   1 pep chromosome:TAIR10:4:9783888:9787498:-1 gene:AT4G17570 transcript:AT4G17570.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:GATA26 description:GATA transcription factor 26 [Source:NCBI gene (formerly Entrezgene);Acc:827474]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN13.hmm
+# Target file:     proteomes/Arabidopsis_thaliana.faa
+# Option settings: hmmsearch --tblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN13.tblout --domtblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN13.domtblout --noali --cpu 8 models/RPN13.hmm proteomes/Arabidopsis_thaliana.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:10 2025
+# [ok]

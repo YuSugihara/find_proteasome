@@ -1,0 +1,139 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/PAD.hmm
+# target sequence database:        proteomes/Oryza_sativa.faa
+# per-seq hits tabular output:     Oryza_sativa/hmmsearch/Oryza_sativa_PAD.tblout
+# per-dom hits tabular output:     Oryza_sativa/hmmsearch/Oryza_sativa_PAD.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR11599.SF168.pir  [M=249]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+     4e-155  515.8   0.7   4.4e-155  515.7   0.7    1.0  1  GCF_001433935.1_NC_029264.1_000907.1  
+   2.7e-154  513.1   0.4   3.2e-154  512.8   0.4    1.1  1  GCF_001433935.1_NC_029263.1_001256.1  
+    5.3e-52  178.0   0.0      6e-52  177.8   0.0    1.0  1  GCF_001433935.1_NC_029261.1_000283.1  
+    5.3e-52  178.0   0.0      6e-52  177.8   0.0    1.0  1  GCF_001433935.1_NC_029261.1_000291.1  
+    7.6e-52  177.5   0.0    8.6e-52  177.3   0.0    1.0  1  GCF_001433935.1_NC_029261.1_000252.1  
+    8.4e-49  167.5   0.0    9.8e-49  167.3   0.0    1.0  1  GCF_001433935.1_NC_029266.1_001670.1  
+    2.2e-47  162.9   0.0    2.6e-47  162.7   0.0    1.0  1  GCF_001433935.1_NC_029257.1_001308.1  
+    2.9e-47  162.5   0.0    3.3e-47  162.3   0.0    1.0  1  GCF_001433935.1_NC_029258.1_001046.1  
+    1.9e-41  143.4   0.1    2.4e-41  143.1   0.1    1.0  1  GCF_001433935.1_NC_029258.1_003915.1  
+      9e-35  121.6   0.0    1.1e-34  121.3   0.0    1.0  1  GCF_001433935.1_NC_029257.1_000138.1  
+    9.3e-35  121.5   0.0    1.2e-34  121.2   0.0    1.1  1  GCF_001433935.1_NC_029262.1_000785.1  
+    4.6e-30  106.2   0.0    5.3e-30  106.0   0.0    1.1  1  GCF_001433935.1_NC_029256.1_001954.1  
+    1.7e-29  104.3   0.0    2.1e-29  104.0   0.0    1.0  1  GCF_001433935.1_NC_029260.1_001867.1  
+      9e-29  101.9   0.0    1.1e-28  101.6   0.0    1.1  1  GCF_001433935.1_NC_029262.1_001906.1  
+    0.00024   21.9   0.2    0.00034   21.4   0.2    1.2  1  GCF_001433935.1_NC_029257.1_002234.1  
+    0.00034   21.4   0.2    0.00047   21.0   0.2    1.2  1  GCF_001433935.1_NC_029261.1_002906.1  
+     0.0027   18.5   0.0     0.0033   18.2   0.0    1.1  1  GCF_001433935.1_NC_029261.1_002845.1  
+
+
+Domain annotation for each sequence:
+>> GCF_001433935.1_NC_029264.1_000907.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  515.7   0.7  1.9e-158  4.4e-155       1     246 [.       1     246 [.       1     249 [] 0.99
+
+>> GCF_001433935.1_NC_029263.1_001256.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  512.8   0.4  1.4e-157  3.2e-154       1     246 [.      71     316 ..      71     319 .] 0.99
+
+>> GCF_001433935.1_NC_029261.1_000283.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.8   0.0   2.7e-55     6e-52       2     205 ..       3     207 ..       1     236 [. 0.93
+
+>> GCF_001433935.1_NC_029261.1_000291.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.8   0.0   2.7e-55     6e-52       2     205 ..       3     207 ..       1     236 [. 0.93
+
+>> GCF_001433935.1_NC_029261.1_000252.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.3   0.0   3.8e-55   8.6e-52       2     205 ..       3     207 ..       1     236 [. 0.93
+
+>> GCF_001433935.1_NC_029266.1_001670.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.3   0.0   4.4e-52   9.8e-49       3     229 ..       7     235 ..       5     237 .] 0.89
+
+>> GCF_001433935.1_NC_029257.1_001308.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.7   0.0   1.1e-50   2.6e-47       3     232 ..       5     235 .]       3     235 .] 0.95
+
+>> GCF_001433935.1_NC_029258.1_001046.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.3   0.0   1.5e-50   3.3e-47       3     232 ..       5     235 .]       3     235 .] 0.95
+
+>> GCF_001433935.1_NC_029258.1_003915.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.1   0.1   1.1e-44   2.4e-41       4     230 ..       9     241 ..       6     245 .. 0.91
+
+>> GCF_001433935.1_NC_029257.1_000138.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.3   0.0   4.8e-38   1.1e-34       3     239 ..       5     245 ..       1     257 [. 0.85
+
+>> GCF_001433935.1_NC_029262.1_000785.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.2   0.0   5.4e-38   1.2e-34       2     153 ..      72     223 ..      70     228 .. 0.96
+
+>> GCF_001433935.1_NC_029256.1_001954.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.0   0.0   2.4e-33   5.3e-30       4     187 ..       8     190 ..       6     246 .. 0.90
+
+>> GCF_001433935.1_NC_029260.1_001867.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0   9.3e-33   2.1e-29       4     211 ..       8     215 ..       6     248 .. 0.86
+
+>> GCF_001433935.1_NC_029262.1_001906.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.6   0.0   5.1e-32   1.1e-28       4     201 ..      23     223 ..      21     261 .. 0.87
+
+>> GCF_001433935.1_NC_029257.1_002234.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.4   0.2   1.5e-07   0.00034      28     193 ..      23     184 ..      19     214 .. 0.76
+
+>> GCF_001433935.1_NC_029261.1_002906.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.2   2.1e-07   0.00047      28     193 ..      23     184 ..      19     212 .. 0.76
+
+>> GCF_001433935.1_NC_029261.1_002845.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.2   0.0   1.5e-06    0.0033      42     195 ..      73     221 ..      43     238 .. 0.81
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (249 nodes)
+Target sequences:                      38104  (15334007 residues searched)
+Passed MSV filter:                       719  (0.0188694); expected 762.1 (0.02)
+Passed bias filter:                      623  (0.01635); expected 762.1 (0.02)
+Passed Vit filter:                        41  (0.001076); expected 38.1 (0.001)
+Passed Fwd filter:                        17  (0.000446147); expected 0.4 (1e-05)
+Initial search space (Z):              38104  [actual number of targets]
+Domain search space  (domZ):              17  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.04
+# Mc/sec: 86237.96
+//
+[ok]

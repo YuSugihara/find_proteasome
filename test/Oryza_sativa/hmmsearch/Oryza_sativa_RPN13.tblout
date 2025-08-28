@@ -1,0 +1,15 @@
+#                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GCF_001433935.1_NC_029260.1_001485.1 -          PTHR12225.SF0.pir    -           7.9e-111  371.5   0.0  9.2e-111  371.3   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029259.1_002598.1 -          PTHR12225.SF0.pir    -            6.8e-07   30.2   7.8   1.7e-06   28.9   7.8   1.6   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN13.hmm
+# Target file:     proteomes/Oryza_sativa.faa
+# Option settings: hmmsearch --tblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN13.tblout --domtblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN13.domtblout --noali --cpu 8 models/RPN13.hmm proteomes/Oryza_sativa.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:33:13 2025
+# [ok]

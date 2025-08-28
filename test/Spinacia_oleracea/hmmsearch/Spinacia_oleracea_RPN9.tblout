@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KNA22296.1           -          PTHR10539.SF0.pir    -           6.3e-177  588.8   5.8    7e-177  588.7   5.8   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_035360 [Spinacia oleracea]
+KNA22298.1           -          PTHR10539.SF0.pir    -           1.7e-171  570.9   2.4  1.9e-171  570.8   2.4   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_035380 [Spinacia oleracea]
+KNA11953.1           -          PTHR10539.SF0.pir    -            5.4e-17   62.4   6.8   7.7e-17   61.8   6.8   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_130320 [Spinacia oleracea]
+KNA11741.1           -          PTHR10539.SF0.pir    -            3.4e-08   33.4   1.8   1.2e-07   31.5   0.0   2.1   1   1   1   2   2   2   1 hypothetical protein SOVF_132330 isoform A [Spinacia oleracea]
+KNA11742.1           -          PTHR10539.SF0.pir    -            4.6e-08   32.9   0.6   1.4e-07   31.4   0.0   1.8   1   1   1   2   2   2   1 hypothetical protein SOVF_132330 isoform B [Spinacia oleracea]
+KNA05075.1           -          PTHR10539.SF0.pir    -            0.00051   19.6   0.4   0.00051   19.6   0.4   2.2   2   0   0   2   2   2   1 hypothetical protein SOVF_193730 [Spinacia oleracea]
+KNA14553.1           -          PTHR10539.SF0.pir    -              0.053   13.0   0.4      0.12   11.8   0.4   1.6   1   0   0   1   1   1   0 hypothetical protein SOVF_106570 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN9.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN9.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN9.domtblout --noali --cpu 8 models/RPN9.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:04 2025
+# [ok]

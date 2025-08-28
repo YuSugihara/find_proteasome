@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AT2G32730.1          -          PTHR10943.SF2.pir    -                  0 1513.2   0.0         0 1513.0   0.0   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:2:13879959:13885736:1 gene:AT2G32730 transcript:AT2G32730.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:AT2G32730 description:26S proteasome regulatory complex, non-ATPase subcomplex, Rpn2/Psmd1 subunit [Source:NCBI gene (formerly Entrezgene);Acc:817833]
+AT1G04810.1          -          PTHR10943.SF2.pir    -                  0 1505.4   0.5         0 1505.2   0.5   1.0   1   0   0   1   1   1   1 pep chromosome:TAIR10:1:1350080:1355466:1 gene:AT1G04810 transcript:AT1G04810.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:AT1G04810 description:26S proteasome regulatory complex, non-ATPase subcomplex, Rpn2/Psmd1 subunit [Source:NCBI gene (formerly Entrezgene);Acc:839409]
+AT2G20580.1          -          PTHR10943.SF2.pir    -            1.6e-34  120.5   7.6   6.4e-30  105.3   0.8   2.2   2   0   0   2   2   2   2 pep chromosome:TAIR10:2:8858962:8864865:1 gene:AT2G20580 transcript:AT2G20580.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN1A description:26S proteasome regulatory subunit S2 1A [Source:NCBI gene (formerly Entrezgene);Acc:816580]
+AT4G28470.1          -          PTHR10943.SF2.pir    -            9.8e-31  108.0  11.2   5.5e-28   98.9   2.1   2.2   2   0   0   2   2   2   2 pep chromosome:TAIR10:4:14066731:14072582:-1 gene:AT4G28470 transcript:AT4G28470.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:RPN1B description:26S proteasome regulatory subunit S2 1B [Source:NCBI gene (formerly Entrezgene);Acc:828964]
+AT3G58180.1          -          PTHR10943.SF2.pir    -              0.028   13.8   0.4      0.74    9.1   0.0   2.2   2   0   0   2   2   2   0 pep chromosome:TAIR10:3:21543954:21546180:1 gene:AT3G58180 transcript:AT3G58180.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:AT3G58180 description:ARM repeat superfamily protein [Source:NCBI gene (formerly Entrezgene);Acc:824987]
+AT1G27300.1          -          PTHR10943.SF2.pir    -               0.23   10.8   1.7      0.29   10.4   1.7   1.0   1   0   0   1   1   1   0 pep chromosome:TAIR10:1:9483157:9484368:1 gene:AT1G27300 transcript:AT1G27300.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:AT1G27300 description:uncharacterized protein [Source:NCBI gene (formerly Entrezgene);Acc:839619]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN2.hmm
+# Target file:     proteomes/Arabidopsis_thaliana.faa
+# Option settings: hmmsearch --tblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN2.tblout --domtblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN2.domtblout --noali --cpu 8 models/RPN2.hmm proteomes/Arabidopsis_thaliana.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:10 2025
+# [ok]

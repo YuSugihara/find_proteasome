@@ -1,0 +1,18 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AT1G64750.1          -             74 PTHR16771.orig.30.pir -             76   7.4e-27   94.8  20.1   1   1   6.5e-31   7.8e-27   94.7  20.1     1    73     1    72     1    74 0.93 pep chromosome:TAIR10:1:24052517:24053923:-1 gene:AT1G64750 transcript:AT1G64750.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+AT1G64750.2          -             74 PTHR16771.orig.30.pir -             76   7.4e-27   94.8  20.1   1   1   6.5e-31   7.8e-27   94.7  20.1     1    73     1    72     1    74 0.93 pep chromosome:TAIR10:1:24052581:24053905:-1 gene:AT1G64750 transcript:AT1G64750.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+AT5G45010.1          -             73 PTHR16771.orig.30.pir -             76   1.4e-24   87.4  19.6   1   1   1.3e-28   1.5e-24   87.3  19.6     7    74     4    72     1    73 0.92 pep chromosome:TAIR10:5:18166898:18168383:-1 gene:AT5G45010 transcript:AT5G45010.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(V) description:DSS1 homolog on chromosome V [Source:NCBI gene (formerly Entrezgene);Acc:834532]
+AT1G64750.3          -            115 PTHR16771.orig.30.pir -             76   2.5e-24   86.7  19.9   1   2   2.4e-13   2.8e-09   38.4   2.4     1    38     1    36     1    47 0.87 pep chromosome:TAIR10:1:24052362:24053908:-1 gene:AT1G64750 transcript:AT1G64750.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+AT1G64750.3          -            115 PTHR16771.orig.30.pir -             76   2.5e-24   86.7  19.9   2   2   2.6e-18   3.1e-14   54.3   9.9    29    73    68   113    59   115 0.89 pep chromosome:TAIR10:1:24052362:24053908:-1 gene:AT1G64750 transcript:AT1G64750.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:DSS1(I) description:deletion of SUV3 suppressor 1(I) [Source:NCBI gene (formerly Entrezgene);Acc:842783]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/DSS1.hmm
+# Target file:     proteomes/Arabidopsis_thaliana.faa
+# Option settings: hmmsearch --tblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_DSS1.tblout --domtblout Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_DSS1.domtblout --noali --cpu 8 models/DSS1.hmm proteomes/Arabidopsis_thaliana.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:08 2025
+# [ok]

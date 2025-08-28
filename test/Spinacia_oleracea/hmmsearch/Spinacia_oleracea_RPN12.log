@@ -1,0 +1,55 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPN12.hmm
+# target sequence database:        proteomes/Spinacia_oleracea.faa
+# per-seq hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN12.tblout
+# per-dom hits tabular output:     Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN12.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR12387.SF0.pir  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+   9.1e-106  353.6   0.6     1e-105  353.4   0.6    1.0  1  KNA22020.1  hypothetical protein SOVF_037910 [Spinacia olerac
+    4.4e-58  197.2   0.1    4.8e-58  197.0   0.1    1.0  1  KNA15621.1  hypothetical protein SOVF_096620 [Spinacia olerac
+    1.6e-11   44.4   0.0    1.7e-11   44.4   0.0    1.0  1  KNA11466.1  hypothetical protein SOVF_134750 [Spinacia olerac
+
+
+Domain annotation for each sequence:
+>> KNA22020.1  hypothetical protein SOVF_037910 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  353.4   0.6  1.3e-109    1e-105       4     274 .]       1     267 []       1     267 [] 0.97
+
+>> KNA15621.1  hypothetical protein SOVF_096620 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  197.0   0.1   6.1e-62   4.8e-58      80     228 ..       1     148 [.       1     151 [] 0.98
+
+>> KNA11466.1  hypothetical protein SOVF_134750 [Spinacia oleracea]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.4   0.0   2.1e-15   1.7e-11     159     195 ..       1      37 [.       1      38 [] 0.98
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                      23522  (9260641 residues searched)
+Passed MSV filter:                       815  (0.0346484); expected 470.4 (0.02)
+Passed bias filter:                      446  (0.018961); expected 470.4 (0.02)
+Passed Vit filter:                        42  (0.00178556); expected 23.5 (0.001)
+Passed Fwd filter:                         3  (0.00012754); expected 0.2 (1e-05)
+Initial search space (Z):              23522  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.02
+# Mc/sec: 85871.46
+//
+[ok]

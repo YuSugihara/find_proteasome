@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KNA06045.1           -          PTHR10410.SF5.pir    -           2.9e-166  552.6   0.5  3.2e-166  552.5   0.5   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_184110 [Spinacia oleracea]
+KNA06046.1           -          PTHR10410.SF5.pir    -           2.4e-163  543.1   0.7  2.6e-163  542.9   0.7   1.0   1   0   0   1   1   1   1 hypothetical protein SOVF_184120 [Spinacia oleracea]
+KNA25641.1           -          PTHR10410.SF5.pir    -            4.8e-50  170.8   0.0   6.4e-50  170.4   0.0   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_004620 [Spinacia oleracea]
+KNA04818.1           -          PTHR10410.SF5.pir    -            3.2e-16   59.7   0.0   3.9e-16   59.4   0.0   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_196190 [Spinacia oleracea]
+KNA24820.1           -          PTHR10410.SF5.pir    -            7.8e-10   38.7   0.0   1.5e-09   37.8   0.0   1.4   1   1   0   1   1   1   1 hypothetical protein SOVF_012290 [Spinacia oleracea]
+KNA23571.1           -          PTHR10410.SF5.pir    -            9.2e-10   38.5   0.0   1.2e-09   38.1   0.0   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_023760 isoform B [Spinacia oleracea]
+KNA23570.1           -          PTHR10410.SF5.pir    -            1.3e-09   38.0   0.0   1.7e-09   37.6   0.0   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_023760 isoform A [Spinacia oleracea]
+KNA16781.1           -          PTHR10410.SF5.pir    -              4e-08   33.1   0.0   7.2e-08   32.3   0.0   1.3   1   0   0   1   1   1   1 hypothetical protein SOVF_086080 [Spinacia oleracea]
+KNA23892.1           -          PTHR10410.SF5.pir    -            6.4e-08   32.4   0.1   9.8e-08   31.8   0.1   1.3   1   0   0   1   1   1   1 hypothetical protein SOVF_020490, partial [Spinacia oleracea]
+KNA18546.1           -          PTHR10410.SF5.pir    -            1.2e-07   31.5   0.1   2.1e-07   30.7   0.1   1.3   1   0   0   1   1   1   1 hypothetical protein SOVF_069510 [Spinacia oleracea]
+KNA22940.1           -          PTHR10410.SF5.pir    -            3.1e-07   30.2   0.0   4.5e-07   29.6   0.0   1.3   1   0   0   1   1   1   1 hypothetical protein SOVF_029310 [Spinacia oleracea]
+KNA02641.1           -          PTHR10410.SF5.pir    -            4.1e-07   29.8   0.0   5.3e-07   29.4   0.0   1.1   1   0   0   1   1   1   1 hypothetical protein SOVF_216740 [Spinacia oleracea]
+KNA03669.1           -          PTHR10410.SF5.pir    -              0.002   17.7   0.1    0.0036   16.8   0.1   1.4   1   1   0   1   1   1   1 hypothetical protein SOVF_206920, partial [Spinacia oleracea]
+KNA17372.1           -          PTHR10410.SF5.pir    -             0.0074   15.8   0.2     0.012   15.1   0.2   1.2   1   0   0   1   1   1   1 hypothetical protein SOVF_080570 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN11.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN11.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN11.domtblout --noali --cpu 8 models/RPN11.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:04 2025
+# [ok]

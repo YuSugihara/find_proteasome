@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KNA11319.1           -            296 PTHR12225.SF0.pir    -            302  9.5e-118  393.5   0.0   1   1  1.4e-121  1.1e-117  393.3   0.0     9   292     1   282     1   293 0.96 hypothetical protein SOVF_136340 [Spinacia oleracea]
+KNA10180.1           -            449 PTHR12225.SF0.pir    -            302   4.9e-08   33.3   4.2   1   1     1e-11   8.1e-08   32.5   4.2   126   273   231   389   150   426 0.66 hypothetical protein SOVF_146780 [Spinacia oleracea]
+KNA15524.1           -            546 PTHR12225.SF0.pir    -            302   5.7e-07   29.8   0.2   1   2      0.33   2.6e+03   -1.9   0.4   137   171   106   141    69   189 0.50 hypothetical protein SOVF_097470 [Spinacia oleracea]
+KNA15524.1           -            546 PTHR12225.SF0.pir    -            302   5.7e-07   29.8   0.2   2   2   7.3e-11   5.7e-07   29.8   0.2   192   276   290   396   208   423 0.61 hypothetical protein SOVF_097470 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN13.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN13.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN13.domtblout --noali --cpu 8 models/RPN13.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:04 2025
+# [ok]

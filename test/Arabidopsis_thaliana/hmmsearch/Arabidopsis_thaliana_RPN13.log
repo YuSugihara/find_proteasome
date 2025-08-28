@@ -1,0 +1,88 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPN13.hmm
+# target sequence database:        proteomes/Arabidopsis_thaliana.faa
+# per-seq hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN13.tblout
+# per-dom hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_RPN13.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR12225.SF0.pir  [M=302]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+   6.2e-119  398.4   0.0   6.7e-119  398.3   0.0    1.0  1  AT2G26590.1  pep chromosome:TAIR10:2:11310957:11315524:-1 gen
+   6.2e-119  398.4   0.0   6.7e-119  398.3   0.0    1.0  1  AT2G26590.2  pep chromosome:TAIR10:2:11310957:11314986:-1 gen
+   6.2e-119  398.4   0.0   6.7e-119  398.3   0.0    1.0  1  AT2G26590.3  pep chromosome:TAIR10:2:11310957:11315524:-1 gen
+   1.1e-117  394.3   0.0   1.2e-117  394.2   0.0    1.0  1  AT2G26590.4  pep chromosome:TAIR10:2:11311004:11315096:-1 gen
+    7.7e-08   33.6   4.4    1.7e-07   32.5   4.4    1.5  1  AT5G16620.1  pep chromosome:TAIR10:5:5450620:5454577:1 gene:A
+    4.2e-05   24.7   0.7    4.2e-05   24.7   0.7    2.1  2  AT4G17570.1  pep chromosome:TAIR10:4:9783782:9787520:-1 gene:
+    4.3e-05   24.6   0.7    4.3e-05   24.6   0.7    2.1  2  AT4G17570.3  pep chromosome:TAIR10:4:9783782:9787528:-1 gene:
+    4.5e-05   24.6   0.7    4.5e-05   24.6   0.7    2.1  2  AT4G17570.2  pep chromosome:TAIR10:4:9783888:9787498:-1 gene:
+
+
+Domain annotation for each sequence:
+>> AT2G26590.1  pep chromosome:TAIR10:2:11310957:11315524:-1 gene:AT2G26590 transcript:AT2G26590.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.3   0.0  1.1e-122  6.7e-119       7     291 ..      12     295 ..       1     300 [] 0.92
+
+>> AT2G26590.2  pep chromosome:TAIR10:2:11310957:11314986:-1 gene:AT2G26590 transcript:AT2G26590.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.3   0.0  1.1e-122  6.7e-119       7     291 ..      12     295 ..       1     300 [] 0.92
+
+>> AT2G26590.3  pep chromosome:TAIR10:2:11310957:11315524:-1 gene:AT2G26590 transcript:AT2G26590.3 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.3   0.0  1.1e-122  6.7e-119       7     291 ..      12     295 ..       1     300 [] 0.92
+
+>> AT2G26590.4  pep chromosome:TAIR10:2:11311004:11315096:-1 gene:AT2G26590 transcript:AT2G26590.4 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  394.2   0.0    2e-121  1.2e-117       7     291 ..      12     291 ..       1     296 [] 0.92
+
+>> AT5G16620.1  pep chromosome:TAIR10:5:5450620:5454577:1 gene:AT5G16620 transcript:AT5G16620.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   4.4   2.9e-11   1.7e-07     134     272 ..     198     388 ..     119     417 .. 0.62
+
+>> AT4G17570.1  pep chromosome:TAIR10:4:9783782:9787520:-1 gene:AT4G17570 transcript:AT4G17570.1 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.5     0.033     2e+02     126     185 ..     123     181 ..      55     202 .. 0.71
+   2 !   24.7   0.7   6.9e-09   4.2e-05     114     273 ..     211     368 ..     208     408 .. 0.74
+
+>> AT4G17570.3  pep chromosome:TAIR10:4:9783782:9787528:-1 gene:AT4G17570 transcript:AT4G17570.3 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.4     0.058   3.5e+02     134     185 ..     124     185 ..      55     206 .. 0.69
+   2 !   24.6   0.7   7.1e-09   4.3e-05     114     273 ..     215     372 ..     212     412 .. 0.74
+
+>> AT4G17570.2  pep chromosome:TAIR10:4:9783888:9787498:-1 gene:AT4G17570 transcript:AT4G17570.2 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.4     0.058   3.5e+02     134     185 ..     136     197 ..      66     218 .. 0.69
+   2 !   24.6   0.7   7.4e-09   4.5e-05     114     273 ..     227     384 ..     224     424 .. 0.74
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (302 nodes)
+Target sequences:                      48321  (20833192 residues searched)
+Passed MSV filter:                      4124  (0.0853459); expected 966.4 (0.02)
+Passed bias filter:                     1183  (0.0244821); expected 966.4 (0.02)
+Passed Vit filter:                       106  (0.00219366); expected 48.3 (0.001)
+Passed Fwd filter:                         8  (0.000165559); expected 0.5 (1e-05)
+Initial search space (Z):              48321  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.22u 0.01s 00:00:00.23 Elapsed: 00:00:00.07
+# Mc/sec: 84660.52
+//
+[ok]

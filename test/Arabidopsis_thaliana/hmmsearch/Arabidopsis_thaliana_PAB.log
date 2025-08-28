@@ -1,0 +1,267 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/PAB.hmm
+# target sequence database:        proteomes/Arabidopsis_thaliana.faa
+# per-seq hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_PAB.tblout
+# per-dom hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_PAB.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR11599.SF16.pir  [M=234]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+   5.7e-131  436.5   0.1   6.9e-131  436.2   0.1    1.0  1  AT1G16470.1  pep chromosome:TAIR10:1:5622746:5625683:1 gene:A
+   5.7e-131  436.5   0.1   6.9e-131  436.2   0.1    1.0  1  AT1G16470.2  pep chromosome:TAIR10:1:5622838:5625643:1 gene:A
+   1.8e-130  434.9   0.1   2.2e-130  434.6   0.1    1.0  1  AT1G79210.1  pep chromosome:TAIR10:1:29796081:29798836:-1 gen
+   1.8e-130  434.9   0.1   2.2e-130  434.6   0.1    1.0  1  AT1G79210.2  pep chromosome:TAIR10:1:29796081:29798744:-1 gen
+   1.8e-130  434.9   0.1   2.2e-130  434.6   0.1    1.0  1  AT1G79210.3  pep chromosome:TAIR10:1:29796081:29798746:-1 gen
+    7.7e-60  203.7   0.0    9.4e-60  203.4   0.0    1.0  1  AT5G66140.1  pep chromosome:TAIR10:5:26437170:26438771:-1 gen
+    1.8e-59  202.5   0.1    2.3e-59  202.2   0.1    1.2  1  AT3G51260.1  pep chromosome:TAIR10:3:19030926:19033134:1 gene
+    3.8e-59  201.4   0.1    4.5e-59  201.2   0.1    1.0  1  AT3G51260.2  pep chromosome:TAIR10:3:19030995:19033064:1 gene
+    1.6e-57  196.1   0.2    1.9e-57  195.9   0.2    1.0  1  AT3G22110.1  pep chromosome:TAIR10:3:7792549:7794262:-1 gene:
+    2.9e-57  195.3   0.0    3.8e-57  194.9   0.0    1.0  1  AT1G53850.1  pep chromosome:TAIR10:1:20103756:20106077:-1 gen
+    2.9e-57  195.3   0.0    3.8e-57  194.9   0.0    1.0  1  AT1G53850.2  pep chromosome:TAIR10:1:20103756:20105948:-1 gen
+    7.5e-57  193.9   0.0    9.6e-57  193.6   0.0    1.0  1  AT3G14290.1  pep chromosome:TAIR10:3:4764024:4766609:1 gene:A
+    9.8e-54  183.7   0.1    1.3e-53  183.4   0.1    1.0  1  AT5G35590.1  pep chromosome:TAIR10:5:13765076:13767888:-1 gen
+      1e-50  173.9   0.0    1.3e-50  173.5   0.0    1.0  1  AT2G05840.1  pep chromosome:TAIR10:2:2234019:2236470:1 gene:A
+    1.1e-48  167.2   0.0    1.3e-48  167.0   0.0    1.0  1  AT5G42790.1  pep chromosome:TAIR10:5:17159044:17161156:-1 gen
+    8.9e-48  164.2   0.0    1.1e-47  163.9   0.0    1.0  1  AT2G05840.2  pep chromosome:TAIR10:2:2234092:2236290:1 gene:A
+    8.9e-48  164.2   0.0    1.1e-47  164.0   0.0    1.0  1  AT1G47250.1  pep chromosome:TAIR10:1:17319119:17321202:1 gene
+    1.2e-43  150.7   0.1    1.5e-43  150.4   0.1    1.0  1  AT2G05840.3  pep chromosome:TAIR10:2:2234060:2236421:1 gene:A
+    1.1e-41  144.4   0.0    1.2e-41  144.1   0.0    1.0  1  AT2G27020.1  pep chromosome:TAIR10:2:11528288:11531024:-1 gen
+    2.8e-41  143.0   0.0    3.6e-41  142.6   0.0    1.1  1  AT2G27020.2  pep chromosome:TAIR10:2:11528230:11531178:-1 gen
+    2.1e-33  117.2   1.4    1.2e-20   75.4   0.1    2.0  2  AT4G15165.1  pep chromosome:TAIR10:4:8648832:8650382:1 gene:A
+    2.3e-05   25.5   0.0      3e-05   25.0   0.0    1.1  1  AT4G14800.2  pep chromosome:TAIR10:4:8500266:8502240:1 gene:A
+    4.3e-05   24.6   0.1      6e-05   24.1   0.1    1.1  1  AT4G31300.1  pep chromosome:TAIR10:4:15188744:15191156:1 gene
+    4.3e-05   24.6   0.1      6e-05   24.1   0.1    1.1  1  AT4G31300.3  pep chromosome:TAIR10:4:15188748:15191217:1 gene
+      7e-05   23.9   0.1    8.9e-05   23.5   0.1    1.1  1  AT4G31300.2  pep chromosome:TAIR10:4:15188763:15191153:1 gene
+    8.4e-05   23.6   0.0    0.00011   23.2   0.0    1.2  1  AT3G22630.1  pep chromosome:TAIR10:3:8009540:8010862:-1 gene:
+    8.7e-05   23.6   0.0    0.00012   23.1   0.0    1.1  1  AT3G26340.1  pep chromosome:TAIR10:3:9650316:9652936:-1 gene:
+    0.00016   22.7   0.0    0.00024   22.1   0.0    1.1  1  AT1G13060.1  pep chromosome:TAIR10:1:4452190:4454900:1 gene:A
+    0.00045   21.2   0.0    0.00069   20.6   0.0    1.2  1  AT4G14800.1  pep chromosome:TAIR10:4:8500193:8502589:1 gene:A
+     0.0009   20.2   0.0     0.0028   18.6   0.0    1.6  1  AT5G40580.1  pep chromosome:TAIR10:5:16248286:16250805:-1 gen
+     0.0009   20.2   0.0     0.0028   18.6   0.0    1.6  1  AT5G40580.2  pep chromosome:TAIR10:5:16248286:16250925:-1 gen
+      0.001   20.1   0.0      0.003   18.5   0.0    1.6  1  AT3G27430.1  pep chromosome:TAIR10:3:10152517:10155342:1 gene
+     0.0011   20.0   0.0     0.0032   18.4   0.0    1.6  1  AT3G27430.2  pep chromosome:TAIR10:3:10152458:10155447:1 gene
+  ------ inclusion threshold ------
+      0.012   16.6   0.0      0.018   16.0   0.0    1.2  1  AT1G13060.2  pep chromosome:TAIR10:1:4452212:4454876:1 gene:A
+      0.012   16.6   0.0      0.018   16.0   0.0    1.2  1  AT1G13060.3  pep chromosome:TAIR10:1:4452212:4454876:1 gene:A
+      0.065   14.2   0.0       0.19   12.6   0.0    1.6  1  AT5G40580.3  pep chromosome:TAIR10:5:16248300:16250777:-1 gen
+      0.065   14.2   0.0       0.19   12.6   0.0    1.6  1  AT5G40580.4  pep chromosome:TAIR10:5:16248511:16250894:-1 gen
+      0.076   13.9   0.0       0.23   12.3   0.0    1.7  1  AT3G27430.3  pep chromosome:TAIR10:3:10152479:10155261:1 gene
+
+
+Domain annotation for each sequence:
+>> AT1G16470.1  pep chromosome:TAIR10:1:5622746:5625683:1 gene:AT1G16470 transcript:AT1G16470.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  436.2   0.1  5.4e-134  6.9e-131       1     233 [.       1     233 [.       1     234 [. 0.99
+
+>> AT1G16470.2  pep chromosome:TAIR10:1:5622838:5625643:1 gene:AT1G16470 transcript:AT1G16470.2 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  436.2   0.1  5.4e-134  6.9e-131       1     233 [.       1     233 [.       1     234 [. 0.99
+
+>> AT1G79210.1  pep chromosome:TAIR10:1:29796081:29798836:-1 gene:AT1G79210 transcript:AT1G79210.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  434.6   0.1  1.7e-133  2.2e-130       1     233 [.       1     233 [.       1     234 [. 0.99
+
+>> AT1G79210.2  pep chromosome:TAIR10:1:29796081:29798744:-1 gene:AT1G79210 transcript:AT1G79210.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  434.6   0.1  1.7e-133  2.2e-130       1     233 [.       1     233 [.       1     234 [. 0.99
+
+>> AT1G79210.3  pep chromosome:TAIR10:1:29796081:29798746:-1 gene:AT1G79210 transcript:AT1G79210.3 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  434.6   0.1  1.7e-133  2.2e-130       1     233 [.       1     233 [.       1     234 [. 0.99
+
+>> AT5G66140.1  pep chromosome:TAIR10:5:26437170:26438771:-1 gene:AT5G66140 transcript:AT5G66140.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  203.4   0.0   7.4e-63   9.4e-60       5     228 ..       3     226 ..       1     232 [. 0.92
+
+>> AT3G51260.1  pep chromosome:TAIR10:3:19030926:19033134:1 gene:AT3G51260 transcript:AT3G51260.1 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  202.2   0.1   1.8e-62   2.3e-59       5     222 ..       3     219 ..       1     237 [. 0.92
+
+>> AT3G51260.2  pep chromosome:TAIR10:3:19030995:19033064:1 gene:AT3G51260 transcript:AT3G51260.2 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  201.2   0.1   3.5e-62   4.5e-59       5     217 ..       3     214 ..       1     231 [. 0.93
+
+>> AT3G22110.1  pep chromosome:TAIR10:3:7792549:7794262:-1 gene:AT3G22110 transcript:AT3G22110.1 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  195.9   0.2   1.5e-60   1.9e-57       4     213 ..       3     215 ..       1     233 [. 0.93
+
+>> AT1G53850.1  pep chromosome:TAIR10:1:20103756:20106077:-1 gene:AT1G53850 transcript:AT1G53850.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  194.9   0.0   2.9e-60   3.8e-57       4     230 ..       6     233 ..       3     236 .. 0.93
+
+>> AT1G53850.2  pep chromosome:TAIR10:1:20103756:20105948:-1 gene:AT1G53850 transcript:AT1G53850.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  194.9   0.0   2.9e-60   3.8e-57       4     230 ..       6     233 ..       3     236 .. 0.93
+
+>> AT3G14290.1  pep chromosome:TAIR10:3:4764024:4766609:1 gene:AT3G14290 transcript:AT3G14290.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  193.6   0.0   7.5e-60   9.6e-57       4     229 ..       6     232 ..       3     236 .. 0.93
+
+>> AT5G35590.1  pep chromosome:TAIR10:5:13765076:13767888:-1 gene:AT5G35590 transcript:AT5G35590.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  183.4   0.1     1e-56   1.3e-53       5     232 ..       8     240 ..       4     242 .. 0.94
+
+>> AT2G05840.1  pep chromosome:TAIR10:2:2234019:2236470:1 gene:AT2G05840 transcript:AT2G05840.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.5   0.0     1e-53   1.3e-50       5     232 ..       8     240 ..       4     242 .. 0.93
+
+>> AT5G42790.1  pep chromosome:TAIR10:5:17159044:17161156:-1 gene:AT5G42790 transcript:AT5G42790.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.0   0.0     1e-51   1.3e-48       1     222 [.       1     223 [.       1     235 [. 0.92
+
+>> AT2G05840.2  pep chromosome:TAIR10:2:2234092:2236290:1 gene:AT2G05840 transcript:AT2G05840.2 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.9   0.0     9e-51   1.1e-47       5     210 ..       8     217 ..       4     219 .. 0.96
+
+>> AT1G47250.1  pep chromosome:TAIR10:1:17319119:17321202:1 gene:AT1G47250 transcript:AT1G47250.1 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.0   0.0   8.4e-51   1.1e-47       1     222 [.       1     223 [.       1     236 [. 0.91
+
+>> AT2G05840.3  pep chromosome:TAIR10:2:2234060:2236421:1 gene:AT2G05840 transcript:AT2G05840.3 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.4   0.1   1.2e-46   1.5e-43       5     181 ..       8     186 ..       4     199 .. 0.96
+
+>> AT2G27020.1  pep chromosome:TAIR10:2:11528288:11531024:-1 gene:AT2G27020 transcript:AT2G27020.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  144.1   0.0   9.7e-45   1.2e-41       4     189 ..       6     191 ..       3     235 .. 0.90
+
+>> AT2G27020.2  pep chromosome:TAIR10:2:11528230:11531178:-1 gene:AT2G27020 transcript:AT2G27020.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  142.6   0.0   2.8e-44   3.6e-41       4     189 ..     108     293 ..     103     336 .. 0.90
+
+>> AT4G15165.1  pep chromosome:TAIR10:4:8648832:8650382:1 gene:AT4G15165 transcript:AT4G15165.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.4   0.1   9.5e-24   1.2e-20       4      99 ..       3      99 ..       1     102 [. 0.93
+   2 !   42.6   0.0     1e-13   1.3e-10     139     215 ..      97     175 ..      95     193 .. 0.87
+
+>> AT4G14800.2  pep chromosome:TAIR10:4:8500266:8502240:1 gene:AT4G14800 transcript:AT4G14800.2 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   2.4e-08     3e-05      44     189 ..      14     173 ..       8     186 .. 0.87
+
+>> AT4G31300.1  pep chromosome:TAIR10:4:15188744:15191156:1 gene:AT4G31300 transcript:AT4G31300.1 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.1   4.7e-08     6e-05      31     125 ..      11     109 ..       4     126 .. 0.86
+
+>> AT4G31300.3  pep chromosome:TAIR10:4:15188748:15191217:1 gene:AT4G31300 transcript:AT4G31300.3 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.1   4.7e-08     6e-05      31     125 ..      11     109 ..       4     126 .. 0.86
+
+>> AT4G31300.2  pep chromosome:TAIR10:4:15188763:15191153:1 gene:AT4G31300 transcript:AT4G31300.2 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.1     7e-08   8.9e-05      31     125 ..      11     110 ..       4     147 .. 0.83
+
+>> AT3G22630.1  pep chromosome:TAIR10:3:8009540:8010862:-1 gene:AT3G22630 transcript:AT3G22630.1 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.0   8.6e-08   0.00011      44     189 ..      14     157 ..       8     202 .. 0.78
+
+>> AT3G26340.1  pep chromosome:TAIR10:3:9650316:9652936:-1 gene:AT3G26340 transcript:AT3G26340.1 gene_biotype:protein_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.1   0.0   9.6e-08   0.00012      30     189 ..      55     211 ..      45     221 .. 0.90
+
+>> AT1G13060.1  pep chromosome:TAIR10:1:4452190:4454900:1 gene:AT1G13060 transcript:AT1G13060.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   0.0   1.9e-07   0.00024      30     189 ..      55     211 ..      50     221 .. 0.90
+
+>> AT4G14800.1  pep chromosome:TAIR10:4:8500193:8502589:1 gene:AT4G14800 transcript:AT4G14800.1 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   0.0   5.4e-07   0.00069      44     189 ..      14     157 ..       8     170 .. 0.79
+
+>> AT5G40580.1  pep chromosome:TAIR10:5:16248286:16250805:-1 gene:AT5G40580 transcript:AT5G40580.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   2.2e-06    0.0028      29     216 ..      36     220 ..      27     235 .. 0.77
+
+>> AT5G40580.2  pep chromosome:TAIR10:5:16248286:16250925:-1 gene:AT5G40580 transcript:AT5G40580.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   2.2e-06    0.0028      29     216 ..      36     220 ..      27     235 .. 0.77
+
+>> AT3G27430.1  pep chromosome:TAIR10:3:10152517:10155342:1 gene:AT3G27430 transcript:AT3G27430.1 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.0   2.4e-06     0.003      29     216 ..      36     220 ..      27     237 .. 0.78
+
+>> AT3G27430.2  pep chromosome:TAIR10:3:10152458:10155447:1 gene:AT3G27430 transcript:AT3G27430.2 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   2.5e-06    0.0032      29     216 ..      36     220 ..      27     237 .. 0.78
+
+>> AT1G13060.2  pep chromosome:TAIR10:1:4452212:4454876:1 gene:AT1G13060 transcript:AT1G13060.2 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   1.4e-05     0.018      61     189 ..     111     235 ..     106     245 .. 0.74
+
+>> AT1G13060.3  pep chromosome:TAIR10:1:4452212:4454876:1 gene:AT1G13060 transcript:AT1G13060.3 gene_biotype:protein_cod
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   1.4e-05     0.018      61     189 ..     111     235 ..     106     245 .. 0.74
+
+>> AT5G40580.3  pep chromosome:TAIR10:5:16248300:16250777:-1 gene:AT5G40580 transcript:AT5G40580.3 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00015      0.19      42     216 ..      43     214 ..      30     231 .. 0.76
+
+>> AT5G40580.4  pep chromosome:TAIR10:5:16248511:16250894:-1 gene:AT5G40580 transcript:AT5G40580.4 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00015      0.19      42     216 ..      43     214 ..      30     231 .. 0.76
+
+>> AT3G27430.3  pep chromosome:TAIR10:3:10152479:10155261:1 gene:AT3G27430 transcript:AT3G27430.3 gene_biotype:protein_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00018      0.23      42     216 ..      43     214 ..      31     231 .. 0.76
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (234 nodes)
+Target sequences:                      48321  (20833192 residues searched)
+Passed MSV filter:                      1114  (0.0230542); expected 966.4 (0.02)
+Passed bias filter:                      886  (0.0183357); expected 966.4 (0.02)
+Passed Vit filter:                        70  (0.00144865); expected 48.3 (0.001)
+Passed Fwd filter:                        38  (0.000786408); expected 0.5 (1e-05)
+Initial search space (Z):              48321  [actual number of targets]
+Domain search space  (domZ):              38  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.07
+# Mc/sec: 64684.01
+//
+[ok]

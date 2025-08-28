@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KNA22020.1           -            267 PTHR12387.SF0.pir    -            274  9.1e-106  353.6   0.6   1   1  1.3e-109    1e-105  353.4   0.6     4   274     1   267     1   267 0.97 hypothetical protein SOVF_037910 [Spinacia oleracea]
+KNA15621.1           -            151 PTHR12387.SF0.pir    -            274   4.4e-58  197.2   0.1   1   1   6.1e-62   4.8e-58  197.0   0.1    80   228     1   148     1   151 0.98 hypothetical protein SOVF_096620 [Spinacia oleracea]
+KNA11466.1           -             38 PTHR12387.SF0.pir    -            274   1.6e-11   44.4   0.0   1   1   2.1e-15   1.7e-11   44.4   0.0   159   195     1    37     1    38 0.98 hypothetical protein SOVF_134750 [Spinacia oleracea]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN12.hmm
+# Target file:     proteomes/Spinacia_oleracea.faa
+# Option settings: hmmsearch --tblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN12.tblout --domtblout Spinacia_oleracea/hmmsearch/Spinacia_oleracea_RPN12.domtblout --noali --cpu 8 models/RPN12.hmm proteomes/Spinacia_oleracea.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 18:09:04 2025
+# [ok]

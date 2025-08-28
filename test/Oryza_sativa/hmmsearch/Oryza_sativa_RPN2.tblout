@@ -1,0 +1,24 @@
+#                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GCF_001433935.1_NC_029263.1_000408.1 -          PTHR10943.SF2.pir    -                  0 1471.0   0.0         0 1470.7   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029259.1_001978.1 -          PTHR10943.SF2.pir    -                  0 1302.5   0.0         0 1302.3   0.0   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029259.1_001977.1 -          PTHR10943.SF2.pir    -            2.2e-44  152.8   0.1   2.5e-44  152.6   0.1   1.0   1   0   0   1   1   1   1 -
+GCF_001433935.1_NC_029264.1_000262.1 -          PTHR10943.SF2.pir    -            4.8e-36  125.2   2.1   1.7e-34  120.1   2.1   2.2   1   1   0   1   1   1   1 -
+GCF_001433935.1_NC_029261.1_001625.1 -          PTHR10943.SF2.pir    -              6e-34  118.3   4.0   1.3e-31  110.5   1.7   2.3   2   0   0   2   2   2   2 -
+GCF_001433935.1_NC_029257.1_000189.1 -          PTHR10943.SF2.pir    -            1.1e-33  117.4   9.4   1.6e-32  113.6   4.9   2.2   2   0   0   2   2   2   2 -
+GCF_001433935.1_NC_029267.1_001319.1 -          PTHR10943.SF2.pir    -              0.015   14.4   0.5      0.17   10.9   0.0   2.0   2   0   0   2   2   2   0 -
+GCF_001433935.1_NC_029267.1_002220.1 -          PTHR10943.SF2.pir    -              0.035   13.1   0.5      0.17   10.8   0.0   2.0   2   0   0   2   2   2   0 -
+GCF_001433935.1_NC_029262.1_000446.1 -          PTHR10943.SF2.pir    -               0.29   10.1   0.3      0.54    9.2   0.3   1.4   1   0   0   1   1   1   0 -
+GCF_001433935.1_NC_029260.1_000658.1 -          PTHR10943.SF2.pir    -                3.2    6.6   2.6        38    3.1   0.3   2.8   1   1   1   2   2   2   0 -
+GCF_001433935.1_NC_029264.1_002047.1 -          PTHR10943.SF2.pir    -                3.5    6.5   7.5       3.3    6.6   7.5   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN2.hmm
+# Target file:     proteomes/Oryza_sativa.faa
+# Option settings: hmmsearch --tblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN2.tblout --domtblout Oryza_sativa/hmmsearch/Oryza_sativa_RPN2.domtblout --noali --cpu 8 models/RPN2.hmm proteomes/Oryza_sativa.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:33:13 2025
+# [ok]

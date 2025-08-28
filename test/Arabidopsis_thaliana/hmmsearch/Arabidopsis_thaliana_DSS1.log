@@ -1,0 +1,62 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/DSS1.hmm
+# target sequence database:        proteomes/Arabidopsis_thaliana.faa
+# per-seq hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_DSS1.tblout
+# per-dom hits tabular output:     Arabidopsis_thaliana/hmmsearch/Arabidopsis_thaliana_DSS1.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR16771.orig.30.pir  [M=76]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+    7.4e-27   94.8  20.1    7.8e-27   94.7  20.1    1.0  1  AT1G64750.1  pep chromosome:TAIR10:1:24052517:24053923:-1 gen
+    7.4e-27   94.8  20.1    7.8e-27   94.7  20.1    1.0  1  AT1G64750.2  pep chromosome:TAIR10:1:24052581:24053905:-1 gen
+    1.4e-24   87.4  19.6    1.5e-24   87.3  19.6    1.0  1  AT5G45010.1  pep chromosome:TAIR10:5:18166898:18168383:-1 gen
+    2.5e-24   86.7  19.9    3.1e-14   54.3   9.9    2.1  2  AT1G64750.3  pep chromosome:TAIR10:1:24052362:24053908:-1 gen
+
+
+Domain annotation for each sequence:
+>> AT1G64750.1  pep chromosome:TAIR10:1:24052517:24053923:-1 gene:AT1G64750 transcript:AT1G64750.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.7  20.1   6.5e-31   7.8e-27       1      73 [.       1      72 [.       1      74 [] 0.93
+
+>> AT1G64750.2  pep chromosome:TAIR10:1:24052581:24053905:-1 gene:AT1G64750 transcript:AT1G64750.2 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.7  20.1   6.5e-31   7.8e-27       1      73 [.       1      72 [.       1      74 [] 0.93
+
+>> AT5G45010.1  pep chromosome:TAIR10:5:18166898:18168383:-1 gene:AT5G45010 transcript:AT5G45010.1 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3  19.6   1.3e-28   1.5e-24       7      74 ..       4      72 ..       1      73 [] 0.92
+
+>> AT1G64750.3  pep chromosome:TAIR10:1:24052362:24053908:-1 gene:AT1G64750 transcript:AT1G64750.3 gene_biotype:protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.4   2.4   2.4e-13   2.8e-09       1      38 [.       1      36 [.       1      47 [. 0.87
+   2 !   54.3   9.9   2.6e-18   3.1e-14      29      73 ..      68     113 ..      59     115 .] 0.89
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (76 nodes)
+Target sequences:                      48321  (20833192 residues searched)
+Passed MSV filter:                      3203  (0.0662859); expected 966.4 (0.02)
+Passed bias filter:                     1286  (0.0266137); expected 966.4 (0.02)
+Passed Vit filter:                       144  (0.00298007); expected 48.3 (0.001)
+Passed Fwd filter:                         9  (0.000186254); expected 0.5 (1e-05)
+Initial search space (Z):              48321  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.07
+# Mc/sec: 22163.11
+//
+[ok]
