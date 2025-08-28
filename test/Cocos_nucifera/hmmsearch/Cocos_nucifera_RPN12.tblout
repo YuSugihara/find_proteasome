@@ -1,0 +1,17 @@
+#                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                           accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                   ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GCA_003604295.2_CM084734.1_003126.1     -          PTHR12387.SF0.pir    -           1.3e-103  347.2   0.0  8.8e-103  344.4   0.0   1.8   1   1   0   1   1   1   1 -
+GCA_003604295.2_PDMH02001923.1_002186.1 -          PTHR12387.SF0.pir    -              3e-06   27.8   0.0   1.3e-05   25.7   0.0   1.9   1   1   0   1   1   1   1 -
+GCA_003604295.2_PDMH02001923.1_002184.1 -          PTHR12387.SF0.pir    -              3e-06   27.8   0.0   1.3e-05   25.7   0.0   1.9   1   1   0   1   1   1   1 -
+GCA_003604295.2_CM084740.1_000751.1     -          PTHR12387.SF0.pir    -              0.094   13.1   0.4      0.11   12.9   0.4   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN12.hmm
+# Target file:     proteomes/Cocos_nucifera.faa
+# Option settings: hmmsearch --tblout Cocos_nucifera/hmmsearch/Cocos_nucifera_RPN12.tblout --domtblout Cocos_nucifera/hmmsearch/Cocos_nucifera_RPN12.domtblout --noali --cpu 8 models/RPN12.hmm proteomes/Cocos_nucifera.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:49:37 2025
+# [ok]

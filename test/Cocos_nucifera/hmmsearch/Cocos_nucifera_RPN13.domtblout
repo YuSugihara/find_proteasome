@@ -1,0 +1,16 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GCA_003604295.2_CM084731.1_001882.1 -            343 PTHR12225.SF0.pir    -            302  1.9e-120  403.0   0.1   1   1  1.7e-124  2.1e-120  402.9   0.1     6   298    31   329     1   337 0.92 -
+GCA_003604295.2_CM084738.1_001275.1 -            347 PTHR12225.SF0.pir    -            302  2.7e-114  382.8   0.1   1   1  2.5e-118  3.1e-114  382.6   0.1     7   298    10   329     1   338 0.92 -
+GCA_003604295.2_CM084731.1_000978.1 -            574 PTHR12225.SF0.pir    -            302   5.2e-10   40.4   0.3   1   1   6.1e-14   7.5e-10   39.9   0.3   145   287   257   404    98   424 0.72 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      models/RPN13.hmm
+# Target file:     proteomes/Cocos_nucifera.faa
+# Option settings: hmmsearch --tblout Cocos_nucifera/hmmsearch/Cocos_nucifera_RPN13.tblout --domtblout Cocos_nucifera/hmmsearch/Cocos_nucifera_RPN13.domtblout --noali --cpu 8 models/RPN13.hmm proteomes/Cocos_nucifera.faa 
+# Current dir:     /Users/sugihara/Documents/bioinformatics/AlphaCoco/2025-08-16
+# Date:            Thu Aug 28 20:49:37 2025
+# [ok]

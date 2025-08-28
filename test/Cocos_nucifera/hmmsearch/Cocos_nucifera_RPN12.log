@@ -1,0 +1,62 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  models/RPN12.hmm
+# target sequence database:        proteomes/Cocos_nucifera.faa
+# per-seq hits tabular output:     Cocos_nucifera/hmmsearch/Cocos_nucifera_RPN12.tblout
+# per-dom hits tabular output:     Cocos_nucifera/hmmsearch/Cocos_nucifera_RPN12.domtblout
+# show alignments in output:       no
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR12387.SF0.pir  [M=274]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+   1.3e-103  347.2   0.0   8.8e-103  344.4   0.0    1.8  1  GCA_003604295.2_CM084734.1_003126.1      
+      3e-06   27.8   0.0    1.3e-05   25.7   0.0    1.9  1  GCA_003604295.2_PDMH02001923.1_002186.1  
+      3e-06   27.8   0.0    1.3e-05   25.7   0.0    1.9  1  GCA_003604295.2_PDMH02001923.1_002184.1  
+  ------ inclusion threshold ------
+      0.094   13.1   0.4       0.11   12.9   0.4    1.1  1  GCA_003604295.2_CM084740.1_000751.1      
+
+
+Domain annotation for each sequence:
+>> GCA_003604295.2_CM084734.1_003126.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  344.4   0.0  9.5e-107  8.8e-103       4     274 .]       1     308 []       1     308 [] 0.94
+
+>> GCA_003604295.2_PDMH02001923.1_002186.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0   1.4e-09   1.3e-05      40     217 ..     787     997 ..     749    1018 .. 0.77
+
+>> GCA_003604295.2_PDMH02001923.1_002184.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0   1.4e-09   1.3e-05      40     217 ..     787     997 ..     749    1018 .. 0.77
+
+>> GCA_003604295.2_CM084740.1_000751.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.4   1.2e-05      0.11     191     251 ..      39     101 ..      25     110 .. 0.75
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (274 nodes)
+Target sequences:                      37108  (14888898 residues searched)
+Passed MSV filter:                      1039  (0.0279994); expected 742.2 (0.02)
+Passed bias filter:                      654  (0.0176242); expected 742.2 (0.02)
+Passed Vit filter:                        66  (0.00177859); expected 37.1 (0.001)
+Passed Fwd filter:                         4  (0.000107793); expected 0.4 (1e-05)
+Initial search space (Z):              37108  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.04
+# Mc/sec: 83612.64
+//
+[ok]

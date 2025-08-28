@@ -138,7 +138,7 @@ The cutoff values were empirically optimized based on HMM score distributions fr
 - **RPN3**: estimated with a 2-component Gaussian Mixture Model (GMM)  
 - **RPT1–RPT6**: estimated with a 4-component GMM  
 - **Other subunits** (`PAA, PAB, PAC, PAD, PAE, PAF, PAG, PBA, PBB, PBC, PBD, PBE, PBF, PBG, RPN1, RPN2, RPN5–RPN7, RPN9–RPN13, DSS1, RAD23`): estimated with a 3-component GMM  
-- **RPN8**: cutoff manually increased to **300** to reduce false positives  
+- **RPN8** and **PBB**: cutoff manually increased to **300** to reduce false positives  
 - **RAD23**: fixed cutoff of **207.3**, requiring hits to pass this threshold in both the full-length score and the best single-domain score  
 
 These empirical rules are reflected in the provided `estimated_cutoffs.tsv`.
